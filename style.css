@@ -22,3 +22,43 @@
     font-style: normal;
 
 }
+body {
+    font-family: 'ralewaythin';
+}
+.element1, .element3 {
+    color: #0065FC;
+    padding: 20px;
+}
+.element1{
+    border-top: 1px #0065FC solid;   
+}
+.element2{
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo {
+   width: 30%;
+   height: 30%;
+}
+#conteneur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hebergement-a-marseille, #les-plus-populaires {
+    background-color: #f2f2f2;
+}
+.bouton{
+    background-color: #0065FC;
+    color: white;
+}
+footer{
+    background-color:#f2f2f2 ;
+}
+
+
+    
