@@ -25,33 +25,38 @@
 body {
     font-family: 'ralewaythin';
 }
-#rechercher{
-    font-family: 'ralewaythin';
-    font-weight: bold;
-}
-
-a, .element3 {
-    color: #0065FC;
-    padding: 20px;
-}
-.blck {
-    color: black;
-} 
-
-.element1:hover, .element2:hover, .element3:hover {
-    border-top: 1px #0065FC solid; 
-    padding: 20px;}
 .logo {
     width: 30%;
     height: 30%;
  }
+ #inscription {
+    color: #0065FC;
+}
+.ancre {
+    padding: 20px;
+}
+a:hover {
+    color: #0065FC;
+    border-top: 1px #0065FC solid; 
+    padding: 20px;}
 header {
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
-
-
+#conteneur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#recherche{
+    display: flex;
+    flex-direction: column;
+}
+#rechercher {
+    font-family: 'ralewaythin';
+    font-weight: bold;
+}
 #point{
     border: 3px #f2f2f2 solid;
     border-radius: 8px 0px 0px 8px;
@@ -63,6 +68,9 @@ header {
     padding: 7px;
 }
 .bouton{
+    background-color: #0065FC;
+    color: white;}
+.bouton{
     border: 2px #0065FC solid;
     border-radius:0px 8px 8px 0px ;
     padding: 5px;
@@ -70,6 +78,17 @@ header {
 form{
     display: flex;
 
+}
+#fleche, #point{
+    color: black;
+}
+.conteneur3{
+    display: flex;
+    align-items: center;
+      
+}
+.conteneur1b {
+    display: flex;
 }
 i{
        text-align: center;   
@@ -80,45 +99,45 @@ i{
 }
 #rond{
     color: #DEEBFF;
-}
-
-  
-#fleche, #point{
-    color: black;
-}
-#recherche{
-    display: flex;
-    flex-direction: column;
-}
-#filtre{
-    display: flex;
-    align-items: center;
-      
-}
-.dif-filtre{
+}  
+.conteneur2b{
     display: flex; 
     justify-content: space-between;
     align-items: center;
     }
-    .element4{
-        display: flex;
-        justify-content: center;
+.filtre{
+    border: 1px #f2f2f2 solid;
+    border-left: none;
+    padding: 20px;
+    border-radius: 0px 30px 30px 0px;
+    padding-left: 0px;
     }
-#conteneur{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    .filtre:hover{
+        font-weight: bold;
+        border: 1px #0065FC solid;
+    border-left: none;
+    padding: 20px;
+    border-radius: 0px 30px 30px 0px;
+    padding-left: 0px;
+    }
+.conteneur4{
+font-size: small;
+    }
+#i{
+    font-size: smaller;
 }
+
 #hebergement-a-marseille, #les-plus-populaires {
     background-color: #f2f2f2;
 }
-.bouton{
-    background-color: #0065FC;
-    color: white;
-}
 footer{
     background-color:#f2f2f2 ;
-}
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+  }
+.foot {
+      padding: 20px;
+  }
 
     
