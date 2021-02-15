@@ -25,6 +25,11 @@
 body {
     font-family: 'ralewaythin';
 }
+#page-web {
+    max-width: auto;
+    height: auto;
+    
+}
 .logo {
     width: 30%;
     height: 30%;
@@ -90,13 +95,8 @@ form{
 }
 #fleche, #point{
     color: black;
-}
-.conteneur3{
-    display: flex;
-    align-items: center;
-      
-}
-.conteneur1b {
+} 
+.conteneur3 {
     display: flex;
 }
 h3{
@@ -130,7 +130,7 @@ h3{
     }
     .filtre:hover{
         font-style: italic;
-        border: 3px #0065FC solid;
+        border: 2px #0065FC solid;
     border-left: none;
     padding: 20px;
     border-radius: 0px 30px 30px 0px;
@@ -145,21 +145,74 @@ font-size: small;
 #hébergement{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    max-width: auto;
 }
-#hebergement-a-marseille, #les-plus-populaires {
+#hotel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+#hotel-pop{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#hebergement-a-marseille {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+      max-width: 60%;
+    border-radius: 20px 20px 20px 20px;
+    margin:0.5%
+    
+}
+#les-plus-populaires{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0.5%;
+}
+#fleche{
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
 }
 figure{
-    background-color: white;}
+    background-color: white;
+    margin: 5%;
+    overflow: hidden;
+    border-radius: 20px 20px 20px 20px;
+}
+figure img{
+    width: 250px;
+    height: 120px;
+   
+}
+#pop img{
+width: 130px;
+height: 120px;
+
+}
+#pop {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    }
 footer{
     background-color:#f2f2f2 ;
     display: flex;
     justify-content: space-between;
     align-items: center;  
-    padding-right: 15%;  
+    padding-right: 15%; 
+    border-radius: 20px 20px 20px 20px; 
   }
 .foot {
       padding: 20px;
