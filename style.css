@@ -25,40 +25,213 @@
 body {
     font-family: 'ralewaythin';
 }
-.element1, .element3 {
+#page-web {
+    max-width: auto;
+    height: auto;
+    
+}
+.logo {
+    width: 30%;
+    height: 30%;
+ }
+ #inscription {
     color: #0065FC;
+}
+a{
+    color: black;
+}
+.ancre {
     padding: 20px;
 }
-.element1{
-    border-top: 1px #0065FC solid;   
-}
-.element2{
-    padding: 20px;
-}
+.ancre:hover {
+    color: #0065FC;
+    border-top: 1px #0065FC solid; 
+    padding: 20px;}
 header {
     display: flex;
     justify-content:space-between;
     align-items: center;
-}
-.logo {
-   width: 30%;
-   height: 30%;
 }
 #conteneur{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-#hebergement-a-marseille, #les-plus-populaires {
+#recherche{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25%;
+}
+.conteneur1, .conteneur2, .conteneur3{
+    margin-bottom: 10px;
+}
+.conteneur3{
+    margin-top: 5px;
+}
+#rechercher {
+    font-family: 'ralewaythin';
+    font-weight: bold;
+}
+#point{
+    border: 3px #f2f2f2 solid;
+    border-radius: 8px 0px 0px 8px;
+    padding: 6px;
     background-color: #f2f2f2;
 }
+#rechercher{
+    border: 1px #f2f2f2 solid;
+    padding: 7px;
+}
 .bouton{
+    border: 2px #0065FC solid;
+    border-radius:0px 8px 8px 0px ;
+    padding: 5px;
     background-color: #0065FC;
     color: white;
 }
-footer{
-    background-color:#f2f2f2 ;
+form{
+    display: flex;
+
+}
+#fleche, #point{
+    color: black;
+} 
+.conteneur3 {
+    display: flex;
+}
+h3{
+    margin-right: 5px;
+    font-weight: bolder;
+}
+.fas{
+    color: #0065FC;  
+    font-size: 0.5em;
+}
+#rond{
+    color: #DEEBFF;
+           }  
+    #star{
+        color: #f2f2f2;
+    }
+.conteneur2b{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    
+    }
+.element4{
+    border: 2px #f2f2f2 solid;
+  padding-right: 15px;
+     border-radius:30px;
+    font-weight: bolder;
+    display:flex;
+    align-items: center;
+    margin: 10px;
+     }
+     .filtre{
+         margin-left: -10px;
+     }
+    .filtre:hover{
+        font-style: italic;
+        border: 2px #0065FC solid;
+        padding-right: 15px;
+    border-radius:30px;
+        background-color: #f2f2f2;
+    }
+.conteneur4{
+font-size: small;
+    }
+    #i{
+        font-size: smaller;
+}
+#fleche{
+    font-size: medium;
+}
+#hébergement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: auto;
+    
+}
+#hotel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+#hotel-pop{
+    display: flex;
+    flex-direction: column;
+  
+}
+.h2pop {
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: flex-end;
+margin: 0.5%;
 }
 
+#hebergement-a-marseille {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+      max-width: 60%;
+      min-width: auto;
+    border-radius: 20px 20px 20px 20px;
+    margin:0.5%
+    
+}
+#les-plus-populaires{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    min-width: auto;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0.5%;
+}
+#fleche{
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+figure{
+    background-color: white;
+    margin: 5%;
+    overflow: hidden;
+    border-radius: 20px 20px 20px 20px;
+}
+figure img{
+    width: 250px;
+    height: 120px;
+   
+}
+#pop img{
+width: 130px;
+height: 120px;
+
+}
+#pop {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    }
+footer{
+    background-color:#f2f2f2 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-right: 15%; 
+    border-radius: 20px 20px 20px 20px; 
+  }
+.foot {
+      padding: 20px;
+  }
 
     
