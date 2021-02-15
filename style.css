@@ -109,7 +109,8 @@ h3{
 }
 #rond{
     color: #DEEBFF;
-    }  
+    margin: 0px;
+        }  
     #star{
         color: #f2f2f2;
     }
@@ -122,31 +123,35 @@ h3{
     }
 .filtre{
     border: 2px #f2f2f2 solid;
-    border-left: none;
-    padding: 15px;
-    border-radius: 0px 30px 30px 0px;
-    padding-left: 0px;
+  padding-right: 15px;
+   border-radius:30px;
     font-weight: bolder;
-    }
+    display:flex;
+    align-items: center;
+  }
     .filtre:hover{
         font-style: italic;
         border: 2px #0065FC solid;
-    border-left: none;
-    padding: 20px;
-    border-radius: 0px 30px 30px 0px;
-    padding-left: 0px;
+        padding-right: 15px;
+    border-radius:30px;
+        background-color: #f2f2f2;
     }
 .conteneur4{
 font-size: small;
     }
-#i{
-    font-size: smaller;
+    #i{
+        font-size: smaller;
+}
+#fleche{
+    font-size: medium;
 }
 #hébergement{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     max-width: auto;
+    
 }
 #hotel{
     display: flex;
@@ -159,6 +164,12 @@ font-size: small;
     flex-direction: column;
   
 }
+.h2pop {
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: flex-end;
+margin: 0.5%;
+}
 
 #hebergement-a-marseille {
     background-color: #f2f2f2;
@@ -166,6 +177,7 @@ font-size: small;
     flex-direction: row;
     flex-wrap: wrap;
       max-width: 60%;
+      min-width: auto;
     border-radius: 20px 20px 20px 20px;
     margin:0.5%
     
@@ -175,6 +187,7 @@ font-size: small;
     display: flex;
     flex-direction: column;
     max-width: 40%;
+    min-width: auto;
     border-radius: 20px 20px 20px 20px;
     margin: 0.5%;
 }
