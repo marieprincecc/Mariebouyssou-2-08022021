@@ -207,6 +207,7 @@ font-size: small;
     border-radius: 20px 20px 20px 20px;
     margin: 0.5%;   
 }
+
 #fleche{
     align-self: flex-end;
     flex-direction: row;
@@ -240,6 +241,9 @@ height: 120px;
     display: flex;
     align-items: center;
     }
+   
+
+
 
 footer{
     background-color:#f2f2f2 ;
