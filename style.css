@@ -141,12 +141,14 @@ h3{
          margin-left: -7px;
      }
     .element4:hover{
-        font-style: italic;
-        border: 2px #0065FC solid;
+        font-style: italic;       
         padding-right: 15px;
-    border-radius:30px;
-        background-color: #f2f2f2;
+         border-radius:30px;
+        box-shadow:5px 8px 15px 1px rgba(0,0,0,0.8) ;
+     
     }
+   
+    
 .conteneur4{
 font-size: small;
     }
@@ -158,28 +160,27 @@ font-size: small;
 }
 #hébergement{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    max-width: auto;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    margin: auto;
     
 }
 #hotel{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   
-}
+    justify-content: space-around;
+ }
 #hotel-pop{
     display: flex;
     flex-direction: column;
-  
+   
 }
 .h2pop {
-    display:inline-flex;
+    display:flex;
     justify-content:space-between;
-    align-items: flex-end;
-    margin: 0.5%;
+    margin: 5%;
+    margin-bottom: 0%;
 }
 
 #hebergement-a-marseille {
@@ -187,26 +188,31 @@ font-size: small;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-      max-width: 60%;
+      max-width: auto;
       min-width: auto;
     border-radius: 20px 20px 20px 20px;
     margin:0.5%
     
 }
+.txt-hebergement{
+    margin-left:5%;
+
+}
 #les-plus-populaires{
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    max-width: 40%;
-    min-width: auto;
+    max-width: auto;
+    min-width: 30%;
     border-radius: 20px 20px 20px 20px;
-    margin: 0.5%;
+    margin: 0.5%;   
 }
 #fleche{
     align-self: flex-end;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+    font-size: medium;
 
 }
 figure{
@@ -215,6 +221,10 @@ figure{
     overflow: hidden;
     border-radius: 20px 20px 20px 20px;
     box-shadow:5px 8px 15px 1px rgba(0,0,0,0.8) ;
+    border: 3px white solid;
+}
+figure:hover{
+    box-shadow:5px 8px 15px 1px rgba(0,0,0,1) ;
 }
 
 figure img{
@@ -236,8 +246,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;  
-    padding-right: 15%; 
-    border-radius: 20px 20px 20px 20px; 
+    padding-right: 15%;    
   }
 .foot {
       padding: 20px;
