@@ -5,79 +5,75 @@
         <link rel="stylesheet" href="style.css"/>
         <script src="https://kit.fontawesome.com/3fcb279979.js" crossorigin="anonymous"></script>
         <title>Reservia Marie Bouyssou</title>
-         <meta content="text/html">
-         <meta name="desciption" content="outil de planification de vacances">   
-                  
+        <meta content="text/html">
+        <meta name="desciption" content="outil de planification de vacances">                     
     </head>
-    <body>
-        <div id="page-web">
-            <header>
-                <h1><img class="logo" src="images/images/logo/Reservia@3x.png" alt="logo reservia"/></h1>
-                <nav id="conteneur">
-                    <div class="elem1-2">
-                     <div class="element1"><a class="ancre" style="text-decoration:none" href="#hébergement">Hébergements</a></div>
-                     <div class="element2"><a class="ancre"style="text-decoration:none" href="#activité">Activités</a></div>
-                    </div>                 
-                     <div class="element3"><a class="ancre" id="inscription" style="text-decoration: none" href="/">"<strong>S'inscrire</strong></a></div>
-                </nav>
-            </header>
+    <body>       
+        <header>
+            <h1><img class="logo" src="images/images/logo/Reservia@3x.png" alt="logo reservia"/></h1>
+            <nav id="menu">
+                <div class="sous-menu">
+                    <div><a class="ancre" style="text-decoration:none" href="#hébergement">Hébergements</a></div>
+                    <div><a class="ancre"style="text-decoration:none" href="#activité">Activités</a></div>
+                </div>                 
+                <div class="element"><a class="ancre" id="inscription" style="text-decoration: none" href="/">"<strong>S'inscrire</strong></a></div>
+            </nav>
+        </header>
             <main>
-                <section id="recherche">
-                    <div class="conteneur1">
-                    <h2>Trouver votre hébergement pour des vacances de rêve</h2>
-                    <p>En plein centre ville ou en pleine nature</p>
+                <section id="introduction">
+                    <div class="intro">
+                        <h2>Trouver votre hébergement pour des vacances de rêve</h2>
+                        <p>En plein centre ville ou en pleine nature</p>
                     </div>
-                    <div class="conteneur2"> 
+                    <div class="search"> 
                         <form> 
-                             <div class="1"><i id="point" class="fas fa-map-marker-alt fa-xs"></i></div>  <!--zone de recherche-->                          
-                             <div class="2"><input type="search" name="ville" id="rechercher" value="Marseille, France"/>
-                                <label for="rechercher"></label></div>              
-                             <div class="3"><input class=bouton type="submit" value="Rechercher"/></div>
+                            <div><i id="point" class="fas fa-map-marker-alt fa-xs"></i></div>  <!--zone de recherche-->                          
+                            <div><input type="search" name="ville" id="rechercher" value="Marseille, France"/><label for="rechercher"></label></div>                               
+                            <div><input class=bouton type="submit" value="Rechercher"/></div>
                         </form>                           
                     </div>
-                    <div class="conteneur3">                    
+                    <div class="filtres">                    
                         <h3>Filtres</h3>
-                        <div class="conteneur2b">
-                            <div class="element4">
+                        <div class="vignette-filtre">
+                            <div class="vignette">
                                 <span class="filtre">
-                                     <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-2x">
                                         <i id="rond" class="fas fa-circle fa-xs fa-stack-2x"></i>                                       
                                         <i class="fas fa-money-bill-wave fa-xs fa-stack-1x"></i>                                       
                                     </span>
-                                   <span>Economique</span>
+                                    <span>Economique</span>
                                 </span>                                   
                             </div>
-                            <div class="element4">
+                            <div class="vignette">
                                 <span class="filtre"> 
-                                <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-2x">
                                      <i id="rond" class="fas fa-circle fa-xs fa-stack-2x"></i>
                                      <i class="fas fa-child fa-xs fa-stack-1x"></i>
-                                </span>
-                               <span>Famillial</span>
+                                    </span>
+                                    <span>Famillial</span>
                                 </span>
                             </div>
-                            <div class="element4">
+                            <div class="vignette">
                                 <span class="filtre">
-                                <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-2x">
                                     <i id="rond" class="fas fa-circle fa-xs fa-stack-2x"></i>
                                     <i class="fas fa-heart fa-xs fa-stack-1x"></i>
-                                </span> 
-                            <span>Romantique</span>
+                                    </span> 
+                                <span>Romantique</span>
                                 </span>
                             </div>
-                            <div class="element4">      
+                            <div class="vignette">      
                                 <span class="filtre">                          
-                                <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-2x">
                                     <i id="rond" class="fas fa-circle fa-xs fa-stack-2x"></i>
                                     <i class="fas fa-dog fa-xs fa-stack-1x"></i>
-                                </span> 
-                               <span> Animaux autorisés </span>
-                               
+                                    </span> 
+                                    <span> Animaux autorisés </span>                               
                                 </span>                                
                             </div>
                         </div>                    
                     </div>
-                    <div class="conteneur4"> 
+                    <div class="information"> 
                         <p>                      
                             <span id="i" class="fa-stack fa-2x">
                              <i id="rond" class="far fa-circle fa-xs fa-stack-2x"></i>
@@ -87,14 +83,14 @@
                         </p>                          
                     </div>
                 </section>
-                 <section id="hébergement">
+                <section id="hébergement">
                     <div id="hebergement-a-marseille">
-                        <div class="txt-hebergement">
-                        <h2>Hébergements à Marseille</h2>
+                        <div class="titre">
+                            <h2>Hébergements à Marseille</h2>
                         </div>
                         <nav id="hotel">
-                            <div class="element8">
-                               <a style="text-decoration: none"; href="/">
+                            <div class="carte hotel">
+                                <a style="text-decoration: none"; href="/">
                                 <figure>
                                     <img src="images/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la Cannebière"/>
                                     <figcaption><strong>Auberge la Cannebière</strong></figcaption><br/>
@@ -106,11 +102,11 @@
                                         <i class="fas fa-star fa-xs"></i>
                                         <i id="star" class="fas fa-star fa-xs"></i>  
                                         </span>                                 
-                                     </p>
-                                    </figure>
+                                    </p>
+                                </figure>
                                 </a>
                             </div>
-                            <div class="element9">
+                            <div class="carte hotel">
                                 <a style="text-decoration: none"; href="/">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port"/>
@@ -122,12 +118,12 @@
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>  
-                                        </span>                                 
-                                         </p>
-                                        </figure>
-                                    </a>
+                                            </span>                                 
+                                        </p>
+                                    </figure>
+                                </a>
                             </div>
-                            <div class="element10">
+                            <div class="carte hotel">
                                 <a style="text-decoration: none"; href="/">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel les mouettes"/>
@@ -140,11 +136,11 @@
                                             <i class="fas fa-star fa-xs"></i>
                                             <i id="star" class="fas fa-star fa-xs"></i>  
                                             </span>                                 
-                                         </p>
-                                        </figure>
-                                    </a>
+                                        </p>
+                                    </figure>
+                                </a>
                             </div>
-                            <div class="element11">
+                            <div class="carte hotel">
                                 <a style="text-decoration: none"; href="/">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel de la mer"/>
@@ -157,11 +153,11 @@
                                                 <i id="star" class="fas fa-star fa-xs"></i>
                                                 <i id="star" class="fas fa-star fa-xs"></i>
                                             </span>                                            
-                                         </p>
-                                        </figure>
-                                    </a>
+                                        </p>
+                                    </figure>
+                                </a>
                             </div>        
-                            <div class="element12">
+                            <div class="carte hotel">
                                 <a style="text-decoration: none"; href="/">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier"/>
@@ -173,13 +169,13 @@
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>                                       
                                             <i id="star" class="fas fa-star fa-xs"></i>  
-                                        </span>                                 
-                                         </p>
-                                        </figure>
-                                    </a>
+                                            </span>                                 
+                                        </p>
+                                    </figure>
+                                </a>
                             </div>
-                            <div class="element13"> 
-                                 <a style="text-decoration: none"; href="/">
+                            <div class="carte hotel"> 
+                                <a style="text-decoration: none"; href="/">
                                 <figure>
                                     <img src="images/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chez Amina"/>
                                      <figcaption><strong>Hôtel Chez Amina</strong></figcaption><br/>
@@ -190,89 +186,89 @@
                                         <i class="fas fa-star fa-xs"></i>
                                         <i class="fas fa-star fa-xs"></i>
                                         <i class="fas fa-star fa-xs"></i>  
-                                    </span>    
-                                 </p>                             
-                                 </figure>
+                                        </span>    
+                                    </p>                             
+                                </figure>
                                 </a>
                             </div>                            
                         </nav>
-                        <div class="txt-hebergement">
-                        <p><strong>Afficher plus</strong></p>
+                        <div class="sous-titre">
+                            <p><strong>Afficher plus</strong></p>
                         </div>
                     </div>
                     <div id="les-plus-populaires">
-                        <div class="h2pop">
-                        <h2>Les plus populaires </h2>
-                        <p><i id="fleche" class="fas fa-chart-line fa-lg"></i></p>
+                        <div class="titre">
+                            <h2>Les plus populaires </h2>
+                            <p><i id="fleche" class="fas fa-chart-line fa-lg"></i></p>
                         </div>
-                        <nav id="hotel-pop">
-                            <div class="element14">
+                        <nav id="hotel-populaire">
+                            <div class="carte-hotel">
                                 <a style="text-decoration: none"; href="/">
-                                    <figure id="pop">
-                                        <div class="imgpop">
+                                    <figure class="carte-hotel-populaire">
+                                        <div>
                                         <img src="images/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"/>
                                         </div>
-                                        <div class="ppop">
-                                        <h3><strong>Hôtel Le soleil du matin</strong></h3>
-                                        <p>Nuit à partir de <strong>128e</strong></p>                                                                             
+                                        <div>
+                                            <h3><strong>Hôtel Le soleil du matin</strong></h3>
+                                            <p>Nuit à partir de <strong>128e</strong></p>                                                                             
                                             <span style="font-size: 1em">
                                             <i class="fas fa-star fa-xs"></i> 
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>  
-                                        </span> 
+                                            </span> 
                                         </div>                                
                                                               
                                     </figure>
-                                    </a>
+                                </a>
                             </div>
-                            <div class="element15">
+                            <div class="carte-hotel">
                                 <a style="text-decoration: none"; href="/">
-                                    <figure id="pop">
-                                        <div class="imgpop">
+                                    <figure class="carte-hotel-populaire">
+                                        <div>
                                         <img src="images/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"/>
                                         </div>
-                                        <div class="ppop">
-                                        <h3><strong>Au coeur de l'eau Chambres d'hôtes</strong></h3>
-                                        <p> Nuit à partir de <strong>71e</strong></p>
-                                        <span style="font-size: 1em">
+                                        <div>
+                                            <h3><strong>Au coeur de l'eau Chambres d'hôtes</strong></h3>
+                                            <p> Nuit à partir de <strong>71e</strong></p>
+                                            <span style="font-size: 1em">
                                             <i class="fas fa-star fa-xs"></i> 
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>                                       
                                             <i id="star" class="fas fa-star fa-xs"></i>  
-                                        </span>                                 
-                                    </div>
-                                        </figure>
-                                    </a>
+                                            </span>                                 
+                                        </div>
+                                    </figure>
+                                </a>
                             </div>
-                            <div class="element16">
+                            <div class="carte-hotel">
                                 <a style="text-decoration: none"; href="/">
-                                    <figure id="pop">
-                                        <div class="imgpop">
+                                    <figure class="carte-hotel-populaire">
+                                        <div>
                                         <img src="images/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"/>
                                         </div>
-                                        <div class="ppop">
-                                        <h3><strong>Hôtel Tout bleu et Blanc</strong></h3>
-                                        <p>Nuit à partir de <strong>68e</strong></p>     
-                                        <span style="font-size: 1em">
+                                        <div>
+                                            <h3><strong>Hôtel Tout bleu et Blanc</strong></h3>
+                                            <p>Nuit à partir de <strong>68e</strong></p>     
+                                            <span style="font-size: 1em">
                                             <i class="fas fa-star fa-xs"></i> 
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>
                                             <i class="fas fa-star fa-xs"></i>                                       
                                             <i id="star" class="fas fa-star fa-xs"></i>  
-                                        </span>     
-                                    </div>                                     
-                                         </figure>
-                                    </a>
+                                            </span>     
+                                        </div>                                     
+                                    </figure>
+                                </a>
                             </div>
                         </nav>
                     </div>
                 </section>
                 <section id="activité">
                     <h2>Activités à Marseille</h2>
-                       <nav class="grille-activité">
+                    <nav class="grille-activité">
                         <div class="one"> 
                             <a style="text-decoration: none"; href="/">
                                 <figure>
@@ -338,6 +334,6 @@
                    <p>Centre d'aide <br/>Nous contacter</p>
                 </div>
             </footer>
-        </div>
+        
     </body>
 </html>
