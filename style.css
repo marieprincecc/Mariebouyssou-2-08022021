@@ -256,10 +256,7 @@ height: 120px;
       margin: 5%;
       
            }
-     .two .five{
-        display:flex;
-        flex-direction:column;
-      }
+     
       .grille-activité{
         display:grid;
         grid-template-columns: 25% 25% 25% 25%;
@@ -342,4 +339,17 @@ footer{
             height: 200px;
             object-position: center;
         }
+        .grille-activité{
+            display:flex;
+            flex-direction: column;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .foot{
+            margin: 2%;
+        }
+
  }
