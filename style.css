@@ -81,6 +81,7 @@ header {
     justify-content:space-between;
     align-items: center;
 }
+<<<<<<< HEAD
 #point{
     border: 3px #f2f2f2 solid;
     border-radius: 8px 0px 0px 8px;
@@ -134,24 +135,27 @@ i{
         justify-content: center;
     }
 #conteneur{
+=======
+#menu{
+>>>>>>> master
     display: flex;
     justify-content: flex-end;
     align-items: center;
  
    }
-   .elem1-2{
+   .sous-menu{
        display: flex;
    }
 
-#recherche{
+#introduction{
     display: flex;
     flex-direction: column;
     padding-right: 25%;
 }
-.conteneur1, .conteneur2, .conteneur3{
+.intro, .search, .filtres{
     margin-bottom: 10px;
 }
-.conteneur3{
+.filtres{
     margin-top: 5px;
 }
 #rechercher {
@@ -182,7 +186,7 @@ form{
 #fleche, #point{
     color: black;
 } 
-.conteneur3 {
+.filtres {
     display: flex;
     flex-wrap: wrap;
 
@@ -201,7 +205,7 @@ h3{
     #star{
         color: #f2f2f2;
     }
-.conteneur2b{
+.vignette-filtre{
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -209,7 +213,7 @@ h3{
     flex-wrap: wrap;
     
     }
-.element4{
+.vignette{
     border: 2px #f2f2f2 solid;
   padding-right: 15px;
      border-radius:30px;
@@ -221,7 +225,7 @@ h3{
      .filtre{
          margin-left: -7px;
      }
-    .element4:hover{
+    .vignette:hover{
         font-style: italic;       
         padding-right: 15px;
          border-radius:30px;
@@ -230,7 +234,7 @@ h3{
     }
    
     
-.conteneur4{
+.information{
 font-size: small;
     }
     #i{
@@ -252,12 +256,12 @@ font-size: small;
     flex-wrap: wrap;
     justify-content: space-around;
  }
-#hotel-pop{
+#hotel-populaire{
     display: flex;
     flex-direction: column;
    
 }
-.h2pop {
+.titre {
     display:flex;
     justify-content:space-between;
     margin: 5%;
@@ -275,7 +279,7 @@ font-size: small;
     margin:0.5%
     
 }
-.txt-hebergement{
+.titre .sous-titre{
     margin-left:5%;
 
 }
@@ -317,12 +321,12 @@ figure img{
     width: 250px;
     height: 120px;
 }
-#pop img{
+.carte-hotel-populaire img{
 width: 130px;
 height: 120px;
 }
 
-#pop {
+.carte-hotel-populaire {
     height: 120px;
     display: flex;
     align-items: center;
@@ -381,23 +385,23 @@ footer{
   }
  @media all and (max-width:980px)
  {
-    #conteneur{
+    #menu{
         display: flex;
         flex-direction: column-reverse;
     }
-    .element3{
+    .element{
        display: flex;
      }
-     .elem1-2{
+     .sous-menu{
          display: flex;
          align-items: center;
      }
-     .conteneur3 {
+     .filtres {
         display: flex;
         flex-wrap: wrap;
     
     }
-    .conteneur2b{
+    .vignette-filtre{
         display: flex; 
         justify-content: space-between;
         align-items: center;
