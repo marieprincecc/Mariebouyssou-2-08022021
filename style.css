@@ -13,9 +13,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'ralewaythin';
     src: url('font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
@@ -25,11 +22,14 @@
 
 }
 body {
-    font-family: 'ralewaythin';
+    font-family:  "raleway", sans-serif;
 }
 body img{
     object-fit: cover;
     object-position: center;
+}
+h2 h3{
+        font-weight: bold;
 }
 
 .logo {
@@ -38,6 +38,7 @@ body img{
  }
  #inscription {
     color: #0065FC;
+    font-weight: bolder;
 }
 a{
     color: black;
@@ -53,6 +54,10 @@ header {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    margin:2%;
+}
+main {
+    margin: 2%;
 }
 #menu {
     display: flex;
@@ -75,9 +80,12 @@ header {
 .filtres{
     margin-top: 5px;
 }
+.nom-filtre{
+    font-size: bolder;
+}
 #rechercher {
     font-family: 'ralewaythin';
-    font-weight: bold;
+    font-weight: bolder;
 }
 #point{
     border: 3px #f2f2f2 solid;
@@ -139,7 +147,7 @@ h3{
     align-items: center;
     margin: 10px;
      }
-     .filtre{
+     .logo-filtre{
          margin-left: -7px;
      }
     .vignette:hover{
@@ -178,7 +186,7 @@ font-size: small;
     flex-direction: column;
    
 }
-.titre {
+.titre{
     display:flex;
     justify-content:space-between;
     margin: 5%;
@@ -196,7 +204,7 @@ font-size: small;
     margin:0.5%
     
 }
-.titre .sous-titre{
+.sous-titre{
     margin-left:5%;
 
 }
