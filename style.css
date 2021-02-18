@@ -4,7 +4,6 @@
 
 
 
-
 @font-face {
     font-family: 'ralewaythin_italic';
     src: url('font/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
@@ -28,31 +27,6 @@
 body {
     font-family: 'ralewaythin';
 }
-#rechercher{
-    font-family: 'ralewaythin';
-    font-weight: bold;
-}
-
-a, .element3 {
-    color: #0065FC;
-    padding: 20px;
-}
-.blck {
-    color: black;
-} 
-
-.element1:hover, .element2:hover, .element3:hover {
-    border-top: 1px #0065FC solid; 
-    padding: 20px;}
-.logo {
-    width: 30%;
-    height: 30%;
- }
-#page-web {
-    max-width: auto;
-    height: auto;
-}
-
 body img{
     object-fit: cover;
     object-position: center;
@@ -74,70 +48,13 @@ a{
 .ancre:hover {
     color: #0065FC;
     border-top: 1px #0065FC solid; 
-    padding: 20px;
-}
+    padding: 20px;}
 header {
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
-<<<<<<< HEAD
-#point{
-    border: 3px #f2f2f2 solid;
-    border-radius: 8px 0px 0px 8px;
-    padding: 6px;
-    background-color: #f2f2f2;
-}
-#rechercher{
-    border: 1px #f2f2f2 solid;
-    padding: 7px;
-}
-.bouton{
-    border: 2px #0065FC solid;
-    border-radius:0px 8px 8px 0px ;
-    padding: 5px;
-}
-form{
-    display: flex;
-
-}
-i{
-       text-align: center;   
-}
-
-.fas{
-       color: #0065FC;  
-}
-#rond{
-    color: #DEEBFF;
-}
-
-  
-#fleche, #point{
-    color: black;
-}
-#recherche{
-    display: flex;
-    flex-direction: column;
-}
-#filtre{
-    display: flex;
-    align-items: center;
-      
-}
-.dif-filtre{
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    }
-    .element4{
-        display: flex;
-        justify-content: center;
-    }
-#conteneur{
-=======
-#menu{
->>>>>>> master
+#menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -436,4 +353,4 @@ footer{
             margin: 2%;
         }
 
-    }
+ }
