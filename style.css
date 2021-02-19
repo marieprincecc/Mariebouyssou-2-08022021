@@ -24,7 +24,9 @@ h3{
    
 }
 figcaption{
-   margin: 5%;
+    display: block;
+      margin-left: 5%;
+margin-top: 2%;
 }
 
 
@@ -52,6 +54,7 @@ header {
     justify-content:space-between;
     align-items: center;
     margin:2%;
+   
 }
 main {
     margin: 2%;
@@ -70,6 +73,7 @@ main {
     display: flex;
     flex-direction: column;
     padding-right: 25%;
+ 
 }
 .intro, .search, .filtres{
     margin-bottom: 10px;
@@ -171,6 +175,7 @@ font-size: small;
     flex-direction: row;    
     justify-content: space-evenly;
     margin: auto;
+ 
     
 }
 #hotel{
@@ -257,15 +262,32 @@ height: 120px;
     }
   #activité{
       margin: 2%;
+     
+      padding-bottom: 2%;
   }
     #activité figure{
        border: none;
-      height: 95%;
+      height: 100%;
       margin: 5%;
-      
+      padding-bottom: 5%;
+   
+     
+  }
+           .one, .two, .three, .four, .five, .six{
+              
+               margin: 5%;
+              
            }
+          
+.carte-activité img{
+   min-height: 85%;
+    min-width: 100%;
+    
+    
+ }
      
       .grille-activité{
+          height: 420px;
         display:grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows:50% 10% 40%;        
@@ -294,6 +316,12 @@ height: 120px;
          grid-column:4/5;
         grid-row:2/4;
       }
+      .two>.three{
+          clear: both;
+      }
+      .five>.six{
+          clear: both;
+      }
       
       
 
@@ -301,7 +329,8 @@ footer{
     background-color:#f2f2f2 ;
     display: flex;
     justify-content: space-between; 
-    padding-right: 15%;    
+    padding-right: 15%;   
+    height: 15%; 
   }
 .foot {
       
