@@ -264,15 +264,15 @@ height: 120px;
       margin: 2%;
      
       padding-bottom: 2%;
+      height: auto;
   }
     #activité figure{
        border: none;
       height: 100%;
       margin: 5%;
       padding-bottom: 5%;
-   
-     
-  }
+     }
+    
            .one, .two, .three, .four, .five, .six{
               
                margin: 5%;
@@ -287,7 +287,7 @@ height: 120px;
  }
      
       .grille-activité{
-          height: 420px;
+         
         display:grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows:50% 10% 40%;        
@@ -339,17 +339,55 @@ footer{
   }
  @media all and (max-width:980px)
  {
+    
+    
+    .ancre{
+         font-size: xxx-large;
+     }
+    
+     .logo{
+         width: 80%;
+         height: auto;
+         margin-left: 8%;
+       
+          
+         
+     }
+     
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
     #menu{
         display: flex;
         flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 100%;
+       
+       line-height: 700%;
+    
     }
+    .sous-menu{
+        display: flex;
+        justify-content: space-around;
+       
+       
+        border-bottom: 2px black solid;
+        width: 100%;
+    }
+
+  
+    
+   
     .element{
-       display: flex;
+    margin-right: 8%;
+    margin-top: -15%;
+    margin-bottom: 5%;
      }
-     .sous-menu{
-         display: flex;
-         align-items: center;
-     }
+     
      .filtres {
         display: flex;
         flex-wrap: wrap;
