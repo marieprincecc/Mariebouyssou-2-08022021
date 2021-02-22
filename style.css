@@ -99,7 +99,7 @@ main {
     background-color: #f2f2f2;
 }
 #rechercher{
-    border: 3px #f2f2f2 solid;
+    border: 1px #f2f2f2 solid;
     padding: 7px;
 }
 .bouton{
@@ -147,7 +147,7 @@ h3{
     
     }
 .vignette{
-    border: 3px #f2f2f2 solid;
+    border: 2px #f2f2f2 solid;
   padding-right: 15px;
      border-radius:30px;
     font-weight: bolder;
