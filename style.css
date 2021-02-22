@@ -480,7 +480,12 @@ footer{
      .information{
          font-size: 100%;
      }
-    
+    #fleche{
+        font-size: 200%;
+    }
+    h2{
+        font-size: 180%;
+    }
         #hébergement{
         flex-direction: column-reverse;
         }
