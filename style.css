@@ -147,7 +147,7 @@ h3{
     
     }
 .vignette{
-    border: 2px #f2f2f2 solid;
+    border: 3px #f2f2f2 solid;
   padding-right: 15px;
      border-radius:30px;
     font-weight: bolder;
@@ -420,9 +420,8 @@ footer{
         align-items: center;
        padding: 5%;
      }
-     .fas{
-         font-size: 120%;
-     }
+    
+     
      .formulaire1{display: none;}
      .formulaire2{display: flex;}
      .bouton1{
@@ -453,22 +452,34 @@ footer{
      }
 
      #rechercher{
-         font-size: 120%;
-         text-align: center;
-         padding: 7%;
+         font-size: 150%;
+        
+        padding: 4.5%;
          border-right: none;
      }
-    .filtres {
+     h3{
+         font-size: 150%;
+     }
+    
+     .filtres {
         display: flex;
-        flex-wrap: wrap;
-    }
-    .vignette-filtre{
-        display: flex; 
-        justify-content: space-between;
-        align-items: center;
-        font-size: small;
-        flex-wrap: wrap;       
-        }
+        flex-direction: column;
+       align-items: flex-start;
+       font-size: 120%;
+     }
+     .vignette-filtre{
+         font-size: 100%;
+     }
+     .vignette{
+        border: 6px #f2f2f2 solid;
+         border-radius: 100px;
+     }
+     .logo-filtre{
+         margin-left: -30px;
+     }
+     .information{
+         font-size: 100%;
+     }
     
         #hébergement{
         flex-direction: column-reverse;
