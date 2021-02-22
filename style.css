@@ -6,6 +6,9 @@ body img{
     object-fit: cover;
     object-position: center;
 }
+h2{
+    font-size: 150%;
+}
 h2 h3 {
         font-weight: bold;
 }
@@ -13,7 +16,7 @@ h3{
     margin: 5%, 5%, 5%, 0%;
 }
 h3{
-    font-size: 1em;
+    font-size: 100%;
     line-height: 100%;
 }
 .texte-carte{
@@ -42,10 +45,10 @@ margin-top: 2%;
 a{
     color: black;
 }
-.ancre {
+.ancre, .ancre1 {
     padding: 20px;
 }
-.ancre:hover {
+.ancre:hover, .ancre1:hover {
     color: #0065FC;
     border-top: 1px #0065FC solid; 
     padding: 20px;}
@@ -82,7 +85,8 @@ main {
     margin-top: 5px;
 }
 .nom-filtre{
-    font-size: bolder;
+    font-size:95%;
+    font-weight: bold
 }
 #rechercher {
     font-family: "raleway", sans-serif;
@@ -124,7 +128,7 @@ h3{
 }
 .fas{
     color: #0065FC;  
-    font-size: 0.5em;
+    font-size: 50%;
 }
 #rond{
     color: #DEEBFF;
@@ -337,83 +341,101 @@ footer{
       line-height: 200%;
       margin: 3%;
   }
- @media all and (max-width:980px)
+ @media(max-width:980px) and (min-width:320px)
  {
+    body{
+        font-size: 36px;
+    }
+    main{
+        margin: 0%;
+    }
     
-    
-    .ancre{
-         font-size: xxx-large;
+    .ancre, .ancre1{
+         font-size: 150%;
+       
      }
+    .sous-menu a:hover{
+        color: #0065FC;
+        border-block-end: 5px #0065FC solid;
+      padding: 52px;
+        border-top: none;
     
-     .logo{
+      
+
+    
+    }
+    .ancre:hover{
+        border-top: none;
+    }
+   
+   .sous-menu a {
+        text-align: center;
+       width: 50%;
+   }
+   
+    
+    .logo{
          width: 80%;
          height: auto;
-         margin-left: 8%;
-       
-          
-         
+         margin-left: 8%;        
      }
-     
-
     header{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        
+        align-items: flex-start;        
     }
     #menu{
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-end;
-        width: 100%;
+        width: 100%;       
+       line-height: 200%;
+       margin-top: -20px;
        
-       line-height: 700%;
-    
     }
-    .sous-menu{
+      .sous-menu{
         display: flex;
         justify-content: space-around;
-       
-       
-        border-bottom: 2px black solid;
-        width: 100%;
-    }
-
-  
-    
+        width: 110%;
+        border-block-end: 5px #f2f2f2 solid;   
+           
+       padding-top:40px;
+       padding-bottom: 40px;
+      margin-right: -15px;
    
+   
+      
+    }
     .element{
-    margin-right: 8%;
-    margin-top: -15%;
-    margin-bottom: 5%;
+        margin-right: 8%;
+        margin-top: -15%;
+        margin-bottom: 5%;
      }
-     
-     .filtres {
+    .filtres {
         display: flex;
         flex-wrap: wrap;
-    
     }
     .vignette-filtre{
         display: flex; 
         justify-content: space-between;
         align-items: center;
         font-size: small;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;       
         }
+    
         #hébergement{
-            flex-direction: column-reverse;
+        flex-direction: column-reverse;
         }
         #hotel{
-            flex-direction: column;
+        flex-direction: column;
         }
         #hebergement-a-marseille{
-            flex-direction: column;
+        flex-direction: column;
         }
         body img{
-            width: 100%;
-            height: 200px;
-            object-position: center;
+        width: 100%;
+        height: 200px;
+        object-position: center;
         }
         .grille-activité{
             display:flex;
