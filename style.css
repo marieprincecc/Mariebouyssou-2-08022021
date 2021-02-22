@@ -1,5 +1,6 @@
 body
  {
+
     font-family:  "raleway", sans-serif;
 }
 body img{
@@ -62,7 +63,7 @@ header {
 main {
     margin: 2%;
 }
-#menu{
+#menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -100,7 +101,7 @@ main {
 }
 #rechercher{
     border: 1px #f2f2f2 solid;
-    padding: 7px;
+    padding: 6.5px;
 }
 .bouton{
     border: 2px #0065FC solid;
@@ -431,7 +432,7 @@ footer{
         background-color: #0065FC;
         width: 120px;
         height: 120px;
-      
+      margin-left: -12px;
      }
      #loupe{  color: white;
         font-size: 280%;
@@ -454,7 +455,7 @@ footer{
      #rechercher{
          font-size: 150%;
         
-        padding: 4.5%;
+        padding: 4.7%;
          border-right: none;
      }
      h3{
@@ -473,6 +474,9 @@ footer{
      .vignette{
         border: 6px #f2f2f2 solid;
          border-radius: 100px;
+     }
+     .vignette:hover{
+        border-radius:100px;
      }
      .logo-filtre{
          margin-left: -30px;
