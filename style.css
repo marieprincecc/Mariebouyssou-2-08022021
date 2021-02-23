@@ -344,241 +344,7 @@ footer{
       line-height: 200%;
       margin: 3%;
   }
- @media(max-width:739px) and (min-width:320px)
- {
-    body{
-        font-size: 32px;
-    }
-    main{
-        margin: 0%;
-    }
-    
-    .ancre, .ancre1{
-         font-size: 150%;
-       
-     }
-    .sous-menu a:hover{
-        color: #0065FC;
-        border-block-end: 5px #0065FC solid;
-      padding: 52px;
-        border-top: none;
-    
-      
-
-    
-    }
-    .ancre:hover{
-        border-top: none;
-    }
-   
-   .sous-menu a {
-        text-align: center;
-       width: 50%;
-   }
-   
-    
-    .logo{
-         width: 80%;
-         height: auto;
-         margin-left: 8%;        
-     }
-    header{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;    
-            
-    }
-    #menu{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: flex-end;
-        width: 100%;       
-       line-height: 200%;
-       margin-top: -20px;
-       
-    }
-      .sous-menu{
-        display: flex;
-        justify-content: space-around;
-        width: 110%;
-        border-block-end: 5px #f2f2f2 solid;   
-           
-       padding-top:40px;
-       padding-bottom: 40px;
-      margin-right: -15px;
-   
-   
-      
-    }
-    .element{
-        margin-right: 8%;
-        margin-top: -15%;
-        margin-bottom: 5%;
-     }
-     #introduction{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       padding: 5%;
-     }
-    
-     
-     .formulaire1{display: none;}
-     .formulaire2{display: flex;}
-     .bouton1{
-        border: 2px #0065FC solid;
-        border-radius:30px ;
-        padding: 5px;
-        background-color: #0065FC;
-        width: 120px;
-        height: 120px;
-      margin-left: -12px;
-     }
-     #loupe{  color: white;
-        font-size: 280%;
-               
-     }
-     .point-recherche{
-        display: flex;
-         width: 120px;
-         height: 120px;
-         background-color: #f2f2f2;
-         border: 2px #f2f2f2 solid;
-         border-radius:30px 0px 0px 30px ;
-         align-items: center;
-         justify-content: center;
-     }
-     #point{
-         font-size: 120%;
-     }
-
-     #rechercher{
-         font-size: 150%;
-        
-        padding: 4.7%;
-         border-right: none;
-         width: 600px;
-         }
-    
-     h3{
-         font-size: 150%;
-     }
-    
-     .filtres {
-        display: flex;
-        flex-direction: column;
-       align-items: flex-start;
-       font-size: 120%;
-     }
-     .vignette-filtre{
-         font-size: 100%;
-     }
-     .vignette{
-        border: 6px #f2f2f2 solid;
-         border-radius: 100px;
-     }
-     .vignette:hover{
-        border-radius:100px;
-     }
-     .logo-filtre{
-         margin-left: -30px;
-     }
-     .information{
-         font-size: 100%;
-     }
-    #fleche{
-        font-size: 200%;
-    }
-    h2{
-        font-size: 180%;
-    }
-    
-    .carte-hotel-populaire img{
-        width: 345px;
-        height: 340px;
-       
-        }
-    .carte-hotel-populaire .texte-carte{
-              margin-bottom: 0%;
-              display: flex;
-              flex-direction: column;
-              align-items: flex-start;
-              justify-content: flex-start;
-            }
-            .texte-carte p{
-                font-size: 120%;
-                
-            }
-            .texte-carte{
-                display: inline-block;
-                margin-top: 3%;
-            }
-           .texte-carte h3{
-        margin: 0%;
-           } 
-           .texte-carte span{
-               margin-top: 10%;
-               font-size: 180%;
-           }
-        
-        .carte-hotel-populaire {
-            height: 340px;
-            display: flex;
-            align-items: center;
-            border: 10px white solid;
-            border-radius: 50px;
-            
-            }
-            figure{
-              
-                border: 10px white solid;
-                border-radius: 50px;
-            }
-        #hébergement{
-        flex-direction: column-reverse;
-        }
-        #hotel{
-        flex-direction: column;
-        }
-        #hebergement-a-marseille{
-        flex-direction: column;
-        }
-        
-        body img{
-        width: 100%;
-        height: 300px;
-        object-position: center;
-        }
-        .grille-activité{
-            display:flex;
-            flex-direction: column;
-            
-        }
-        .carte-activité{
-            height: 400px;
-        }
-        .one, .two, .three, .four, .five, .six{
-              
-            margin: 0%;
-           
-        }
-        figcaption{
-            font-size: 120%;
-            margin-top: 5%;
-        }
-        
-        footer{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-           
-          }
-          .foot{
-            margin: 5%;
-        }
-
- }
- @media(max-width:1023px) and (min-width:740px){
+  @media(max-width:1023px) and (min-width:740px){
     .logo{
         width: 50%;
         height: auto;
@@ -620,8 +386,8 @@ footer{
          }
          .point-recherche{
             display: flex;
-             width: 100px;
-             height: 100px;
+             width: 98px;
+             height: 98px;
              background-color: #f2f2f2;
              border: 2px #f2f2f2 solid;
              border-radius:30px 0px 0px 30px ;
@@ -638,7 +404,7 @@ footer{
             padding:7%;
              border-right: none;
              width: 400px;
-             border:3px #f2f2f2 solid;
+             border:4px #f2f2f2 solid;
              }
              .filtres{
                  flex-direction: column;
@@ -648,9 +414,9 @@ footer{
                font-size: 100%;
              }
              .vignette-filtre{
-                 font-size: 90%;
+                 font-size: 60%;
                  align-items: flex-start;
-                 flex-wrap: wrap-reverse;
+                 flex-wrap: wrap;
                  justify-content: flex-start;
              }
              .vignette{
@@ -686,8 +452,8 @@ footer{
                 margin-top: 3%;
                 }
                 figure{
-                    height: 240px;
-                    width: 250px;
+                   
+                    width: 200px;
                 }
                 .texte-carte{
                     font-size: 60%;
@@ -705,11 +471,12 @@ footer{
                 .grille-activité{
                     display: flex;
                     flex-wrap: wrap;
+                    
                    
                 }
                 .carte-activité{
-                    width: 250px;
-                    height: 240px;
+                    width: 200px;
+                   
                     font-size: 70%;
                     text-align: center;
                 }
@@ -724,5 +491,244 @@ footer{
                         .foot{
                             font-size: 60%;
                         }
+ }
+ 
+  
+  @media only screen and (max-width:739px)
+ { 
+   
+    main{
+        margin: 0%;
+    }
+    
+    .ancre, .ancre1{
+         font-size: 120%;
+       
+     }
+    .sous-menu a:hover{
+        color: #0065FC;
+        border-block-end: 5px #0065FC solid;
+      padding: 52px;
+        border-top: none;
+    
+    }
+    .ancre:hover{
+        border-top: none;
+    }
+   
+   .sous-menu a {
+        text-align: center;
+       width: 50%;
+   }
+   
+    
+    .logo{
+         width: 30%;
+         height: auto;
+         margin-left: 5%;        
+     }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;    
+            
+    }
+    #menu{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 100%;       
+       line-height: 200%;
+       margin-top: -20px;
+       
+    }
+      .sous-menu{
+        display: flex;
+        justify-content: space-around;
+        width: 110%;
+        border-block-end: 5px #f2f2f2 solid;   
+           
+       padding-top:20px;
+       padding-bottom: 20px;
+      margin-right: -15px;
+   
+   
+      
+    }
+    .element{
+       
+        margin-top: -15%;
+        margin-bottom: 5%;
+     }
+     #introduction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       padding: 2%;
+     }
+    
+     
+     .formulaire1{display: none;}
+     .formulaire2{display: flex;}
+     .bouton1{
+        border: 2px #0065FC solid;
+        border-radius:10px ;
+        padding: 5px;
+        background-color: #0065FC;
+        width: 50px;
+        height: 50px;
+      margin-left: -12px;
+     }
+     #loupe{  color: white;
+        font-size: 110%;
+               
+     }
+     .point-recherche{
+        display: flex;
+         width: 50px;
+         height: 50px;
+         background-color: #f2f2f2;
+         border: 2px #f2f2f2 solid;
+         border-radius:10px 0px 0px 10px ;
+         align-items: center;
+         justify-content: center;
+     }
+     #point{
+         font-size: 120%;
+     }
+
+     #rechercher{
+         font-size: 105%;
+        
+        padding: 7%;
+         border-right: none;
+         width: 100%;
+         }
+    
+     h3{
+         font-size: 150%;
+     }
+    
+     .filtres {
+        display: flex;
+        flex-direction: column;
+       align-items: flex-start;
+       font-size: 95%;
+     }
+     .vignette-filtre{
+         font-size: 95%;
+     }
+     .vignette{
+        border: 3px #f2f2f2 solid;
+         border-radius: 100px;
+        padding-right: 0%;
+     }
+     .vignette:hover{
+        border-radius:100px;
+     }
+     .logo-filtre{
+         margin-left: -10%;
+     }
+     .information{
+         font-size: 100%;
+     }
+    #fleche{
+        font-size: 150%;
+    }
+    h2{
+        font-size: 180%;
+    }
+    
+    .carte-hotel-populaire img{
+        width: 120px;
+        height: 140px;
+       
+        }
+    .carte-hotel-populaire .texte-carte{
+              margin-bottom: 0%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: flex-start;
+            }
+            .texte-carte p{
+                font-size: 100%;
+                
+            }
+            .texte-carte{
+                display: inline-block;
+                
+            }
+           .texte-carte h3{
+               font-size: 120%;
+        margin:0%
+           } 
+           .texte-carte span{
+               margin-top: 10%;
+               font-size: 180%;
+           }
+        
+        .carte-hotel-populaire {
+            height: 140px;
+            display: flex;
+            align-items: center;
+            border: 4px white solid;
+            border-radius: 30px;
+            
+            }
+            #hotel .texte-carte{
+                margin-top: 3%;
+            }
+            figure{
+              
+                border: 4px white solid;
+                border-radius: 30px;
+                margin:2%
+            }
+        #hébergement{
+        flex-direction: column-reverse;
+        }
+        #hotel{
+        flex-direction: column;
+        }
+        #hebergement-a-marseille{
+        flex-direction: column;
+        }
+        
+        body img{
+        width: 100%;
+        height: 140px;
+        object-position: center;
+        }
+        .grille-activité{
+            display:flex;
+            flex-direction: column;
+            
+        }
+        .carte-activité{
+            height: 280px;
+        }
+        #activité figure{
+            margin:3%
+        }
+        .one, .two, .three, .four, .five, .six{
+              
+            margin: 0%;
+           
+        }
+        figcaption{
+            font-size: 120%;
+            margin-top: 5%;
+        }
+        
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+           
+          }
+          .foot{
+            margin: 5%;
+        }
  }
  
