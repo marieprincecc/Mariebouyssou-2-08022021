@@ -457,6 +457,7 @@ footer{
         
         padding: 4.7%;
          border-right: none;
+         width: 600px;
          }
     
      h3{
@@ -529,6 +530,7 @@ footer{
             
             }
             figure{
+              
                 border: 10px white solid;
                 border-radius: 50px;
             }
@@ -550,14 +552,29 @@ footer{
         .grille-activité{
             display:flex;
             flex-direction: column;
+            
         }
+        .carte-activité{
+            height: 400px;
+        }
+        .one, .two, .three, .four, .five, .six{
+              
+            margin: 0%;
+           
+        }
+        figcaption{
+            font-size: 120%;
+            margin-top: 5%;
+        }
+        
         footer{
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+           
           }
           .foot{
-            margin: 2%;
+            margin: 5%;
         }
 
  }
