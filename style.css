@@ -344,7 +344,7 @@ footer{
       line-height: 200%;
       margin: 3%;
   }
- @media(max-width:980px) and (min-width:320px)
+ @media(max-width:739px) and (min-width:320px)
  {
     body{
         font-size: 32px;
@@ -578,3 +578,150 @@ footer{
         }
 
  }
+ @media(max-width:1023px) and (min-width:740px){
+    .logo{
+        width: 50%;
+        height: auto;
+        margin-left: 8%;    }
+        body{
+            font-size: 32px;
+        }
+        #menu{
+            font-size: 80%;
+        }
+        .intro h2{
+            margin-top: 0%;
+        }
+        #introduction{
+            display: flex;
+           padding: 5%;
+         }
+         #fleche{
+             font-size: 160%;
+         }
+           
+         
+         .formulaire1{display: none;}
+         .formulaire2{display:flex;
+            
+       }
+         .bouton1{
+            border: 2px #0065FC solid;
+            border-radius:30px ;
+            padding: 5px;
+            background-color: #0065FC;
+            width: 100px;
+            height: 100px;
+          margin-left: -12px;
+         }
+         #loupe{  color: white;
+            font-size: 280%;
+                   
+         }
+         .point-recherche{
+            display: flex;
+             width: 100px;
+             height: 100px;
+             background-color: #f2f2f2;
+             border: 2px #f2f2f2 solid;
+             border-radius:30px 0px 0px 30px ;
+             align-items: center;
+             justify-content: center;
+         }
+         #point{
+             font-size: 120%;
+         }
+    
+         #rechercher{
+             font-size: 100%;
+            
+            padding:7%;
+             border-right: none;
+             width: 400px;
+             border:3px #f2f2f2 solid;
+             }
+             .filtres{
+                 flex-direction: column;
+                 align-items: flex-start;
+             
+            
+               font-size: 100%;
+             }
+             .vignette-filtre{
+                 font-size: 90%;
+                 align-items: flex-start;
+                 flex-wrap: wrap-reverse;
+                 justify-content: flex-start;
+             }
+             .vignette{
+                border: 6px #f2f2f2 solid;
+                 border-radius: 100px;
+             }
+             .vignette:hover{
+                border-radius:100px;
+             }
+             .logo-filtre{
+                 margin-left: -30px;
+             }
+             .information{
+                font-size: 85%;
+            }
+            #hébergement{
+                flex-direction: column-reverse;
+                }
+               #hotel-populaire{
+                   flex-direction: row;
+                   align-items: center;
+                   justify-content: space-around;
+                  margin-right: 3%;
+                  margin-bottom: 3%;
+               }
+               #hotel{
+                   flex-direction: row;
+                   flex-wrap: wrap;
+               }
+                #hebergement-a-marseille{
+                flex-direction: column;
+                margin-top: 3%;
+                }
+                figure{
+                    height: 240px;
+                    width: 250px;
+                }
+                .texte-carte{
+                    font-size: 60%;
+                    margin-top: -5%;
+                }
+                .carte-hotel-populaire{
+                    flex-direction: column;
+                    height: 240px;
+                    margin:5%;
+                }
+                .carte-hotel-populaire img{
+                    width: 250px;
+                    height: 120px;
+                }
+                .grille-activité{
+                    display: flex;
+                    flex-wrap: wrap;
+                   
+                }
+                .carte-activité{
+                    width: 250px;
+                    height: 240px;
+                    font-size: 70%;
+                    text-align: center;
+                }
+                figcaption{
+                    margin-left: 0%;
+                }
+                .one, .two, .three, .four, .five, .six{
+              
+                    margin: 2%;}
+                    .carte-activité img{
+                        min-height: 75%;}
+                        .foot{
+                            font-size: 60%;
+                        }
+ }
+ 
