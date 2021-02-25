@@ -106,7 +106,7 @@ main {
 .bouton{
     border: 2px #0065FC solid;
     border-radius:0px 8px 8px 0px ;
-    padding: 5px;
+    padding: 5.5px;
     background-color: #0065FC;
     color: white;
 }
@@ -157,7 +157,7 @@ h3{
     margin: 10px;
      }
      .logo-filtre{
-         margin-left: -7px;
+        margin: -3px 0px -3px -7px;
      }
     .vignette:hover{
         font-style: italic;       
@@ -344,7 +344,7 @@ footer{
       line-height: 200%;
       margin: 3%;
   }
-  @media(max-width:1023px) and (min-width:740px){
+  @media(max-width:1130px) and (min-width:740px){
     .logo{
         width: 50%;
         height: auto;
@@ -373,37 +373,37 @@ footer{
        }
          .bouton1{
             border: 2px #0065FC solid;
-            border-radius:30px ;
+            border-radius:10px ;
             padding: 5px;
             background-color: #0065FC;
-            width: 100px;
-            height: 100px;
+            width: 50px;
+            height: 52px;
           margin-left: -12px;
          }
          #loupe{  color: white;
-            font-size: 280%;
+            font-size: 200%;
                    
          }
          .point-recherche{
             display: flex;
-             width: 98px;
-             height: 98px;
-             background-color: #f2f2f2;
-             border: 2px #f2f2f2 solid;
-             border-radius:30px 0px 0px 30px ;
-             align-items: center;
-             justify-content: center;
+         width: 50px;
+         height: 49px;
+         background-color: #f2f2f2;
+         border: 2px #f2f2f2 solid;
+         border-radius:10px 0px 0px 10px ;
+         align-items: center;
+         justify-content: center;
          }
          #point{
-             font-size: 120%;
+             font-size: 100%;
          }
     
          #rechercher{
-             font-size: 100%;
-            
-            padding:5%;
+            font-size: 80%;
+        
+            padding: 2.5%;
              border-right: none;
-             width: 400px;
+             width: 100%;
              border:4px #f2f2f2 solid;
              }
              .filtres{
@@ -420,7 +420,7 @@ footer{
                  justify-content: flex-start;
              }
              .vignette{
-                border: 6px #f2f2f2 solid;
+                border: 3px #f2f2f2 solid;
                  border-radius: 100px;
              }
              .vignette:hover{
@@ -471,6 +471,7 @@ footer{
                 .grille-activité{
                     display: flex;
                     flex-wrap: wrap;
+                    justify-content: space-around;
                     
                    
                 }
@@ -576,7 +577,7 @@ footer{
         padding: 5px;
         background-color: #0065FC;
         width: 50px;
-        height: 50px;
+        height: 52px;
       margin-left: -12px;
      }
      #loupe{  color: white;
@@ -586,7 +587,7 @@ footer{
      .point-recherche{
         display: flex;
          width: 50px;
-         height: 50px;
+         height: 49px;
          background-color: #f2f2f2;
          border: 2px #f2f2f2 solid;
          border-radius:10px 0px 0px 10px ;
@@ -600,9 +601,10 @@ footer{
      #rechercher{
          font-size: 105%;
         
-        padding: 7%;
+        padding: 5%;
          border-right: none;
          width: 100%;
+         border:4px #f2f2f2 solid;
          }
     
      h3{
