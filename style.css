@@ -344,7 +344,7 @@ footer{
       line-height: 200%;
       margin: 3%;
   }
-  @media(max-width:1130px) and (min-width:740px){
+  @media(max-width:1023px) and (min-width:740px){
     .logo{
         width: 50%;
         height: auto;
