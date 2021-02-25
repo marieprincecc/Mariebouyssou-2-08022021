@@ -14,7 +14,7 @@ h2 h3 {
         font-weight: bold;
 }
 h3{
-    margin: 5%, 5%, 5%, 0%;
+    margin: 5% 5% 5% 0%;
 }
 h3{
     font-size: 100%;
@@ -208,7 +208,6 @@ font-size: small;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-     max-width: auto;
     min-width: auto;
     border-radius: 20px 20px 20px 20px;
     margin:0.5%;
@@ -222,7 +221,6 @@ font-size: small;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    max-width: auto;
     min-width: 30%;
     border-radius: 20px 20px 20px 20px;
     margin: 0.5%;   
@@ -509,8 +507,8 @@ footer{
      }
     .sous-menu a:hover{
         color: #0065FC;
-        border-block-end: 5px #0065FC solid;
-      padding: 52px;
+        border-bottom: 5px #0065FC solid;
+      padding: 25px;
         border-top: none;
     
     }
@@ -548,7 +546,7 @@ footer{
         display: flex;
         justify-content: space-around;
         width: 110%;
-        border-block-end: 5px #f2f2f2 solid;   
+        border-bottom: 5px #f2f2f2 solid;   
            
        padding-top:20px;
        padding-bottom: 20px;
