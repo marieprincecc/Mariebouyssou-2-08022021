@@ -89,20 +89,20 @@ main {
     font-size:95%;
     font-weight: bold
 }
-#rechercher {
+#rechercher, #rechercher1 {
     font-family: "raleway", sans-serif;
     font-weight: bolder;
+    border: 1px #f2f2f2 solid;
+    padding: 6.5px;
 }
-#point{
+#point, #point1{
     border: 3px #f2f2f2 solid;
     border-radius: 8px 0px 0px 8px;
     padding: 6px;
     background-color: #f2f2f2;
 }
-#rechercher{
-    border: 1px #f2f2f2 solid;
-    padding: 6.5px;
-}
+
+
 .bouton{
     border: 2px #0065FC solid;
     border-radius:0px 8px 8px 0px ;
@@ -116,7 +116,7 @@ main {
 .formulaire2{
     display: none;
 }
-#fleche, #point{
+#fleche, #point, #point1{
     color: black;
 } 
 .filtres {
@@ -133,10 +133,10 @@ h3{
     color: #0065FC;  
     font-size: 50%;
 }
-#rond{
+.rond{
     color: #DEEBFF;
            }  
-    #star{
+    .star{
         color: #f2f2f2;
     }
 .vignette-filtre{
