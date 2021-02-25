@@ -370,7 +370,7 @@ footer{
             
        }
          .bouton1{
-            border: 2px #0065FC solid;
+           
             border-radius:10px ;
             padding: 5px;
             background-color: #0065FC;
@@ -385,9 +385,9 @@ footer{
          .point-recherche{
             display: flex;
          width: 50px;
-         height: 49px;
+         height: 55px;
          background-color: #f2f2f2;
-         border: 2px #f2f2f2 solid;
+        
          border-radius:10px 0px 0px 10px ;
          align-items: center;
          justify-content: center;
@@ -571,7 +571,6 @@ footer{
      .formulaire1{display: none;}
      .formulaire2{display: flex;}
      .bouton1{
-        
         border-radius:10px ;
         padding: 5px;
         background-color: #0065FC;
