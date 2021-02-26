@@ -1,6 +1,5 @@
 body
  {
-
     font-family:  "raleway", sans-serif;
 }
 body img{
@@ -9,37 +8,28 @@ body img{
 }
 h2{
     font-size: 150%;
-}
-h2 h3 {
-        font-weight: bold;
+    font-weight: bold;
 }
 h3{
     margin: 5% 5% 5% 0%;
-}
-h3{
+    font-weight: bold;
     font-size: 110%;
     line-height: 100%;
 }
 .texte-carte{
     margin-left: 6px;  
-   margin-bottom: 6px;
-  
-   
-   
+    margin-bottom: 6px;  
 }
 figcaption{
     display: block;
-      margin-left: 5%;
-margin-top: 2%;
+    margin-left: 5%;
+    margin-top: 2%;
 }
-
-
-
 .logo {
     width: 30%;
     height: 30%;
  }
- #inscription {
+#inscription {
     color: #0065FC;
     font-weight: bolder;
 }
@@ -58,7 +48,6 @@ header {
     justify-content:space-between;
     align-items: center;
     margin:2%;
-   
 }
 main {
     margin: 2%;
@@ -67,17 +56,15 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
- 
-   }
-   .sous-menu{
+}
+.sous-menu{
        display: flex;
-   }
+}
 
 #introduction{
     display: flex;
     flex-direction: column;
     padding-right: 25%;
- 
 }
 .intro, .search, .filtres{
     margin-bottom: 10px;
@@ -95,14 +82,11 @@ main {
     border: 1px #f2f2f2 solid;
     padding: 6.5px;
 }
-#point{
-   
+#point{   
     border-radius: 8px 0px 0px 8px;
     padding: 9px;
     background-color: #f2f2f2;
 }
-
-
 .bouton{
     
     border-radius:0px 8px 8px 0px ;
@@ -123,7 +107,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
 }
 h3{
    
@@ -135,44 +118,40 @@ h3{
 }
 .rond{
     color: #DEEBFF;
-           }  
-    .star{
-        color: #f2f2f2;
-    }
+}  
+.star{
+    color: #f2f2f2;
+}
 .vignette-filtre{
     display: flex; 
     justify-content: space-between;
     align-items: center;
     font-size: small;
     flex-wrap: wrap;
-    
-    }
+}
 .vignette{
     border: 2px #f2f2f2 solid;
-  padding-right: 15px;
-     border-radius:30px;
+    padding-right: 15px;
+    border-radius:30px;
     font-weight: bolder;
     display:flex;
     align-items: center;
     margin: 10px;
-     }
-     .logo-filtre{
-        margin: -3px 0px -3px -7px;
-     }
-    .vignette:hover{
-        font-style: italic;       
-        padding-right: 15px;
-         border-radius:30px;
-        box-shadow:5px 8px 15px 1px rgba(0,0,0,0.8) ;
-     
-    }
-   
-    
+}
+.logo-filtre{
+    margin: -3px 0px -3px -7px;
+}
+.vignette:hover{
+    font-style: italic;       
+    padding-right: 15px;
+    border-radius:30px;
+    box-shadow:5px 8px 15px 1px rgba(0,0,0,0.8) ;
+}
 .information{
-font-size: small;
-    }
-    #i{
-        font-size: smaller;
+    font-size: small;
+}
+#i{
+    font-size: smaller;
 }
 #fleche{
     font-size: medium;
@@ -182,15 +161,13 @@ font-size: small;
     flex-direction: row;    
     justify-content: space-evenly;
     margin: auto;
- 
-    
 }
 #hotel{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
- }
+}
 #hotel-populaire{
     display: flex;
     flex-direction: column;
@@ -202,7 +179,6 @@ font-size: small;
    margin-left: 5%;
    margin-right: 5%;
 }
-
 #hebergement-a-marseille {
     background-color: #f2f2f2;
     display: flex;
