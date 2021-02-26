@@ -17,13 +17,13 @@ h3{
     margin: 5% 5% 5% 0%;
 }
 h3{
-    font-size: 100%;
+    font-size: 110%;
     line-height: 100%;
 }
 .texte-carte{
-    margin-left: 3%;
+    margin-left: 6px;  
+   margin-bottom: 6px;
   
-   margin-bottom: 5%;
    
    
 }
@@ -126,7 +126,7 @@ main {
 
 }
 h3{
-    margin-right: 5px;
+   
     font-weight: bolder;
 }
 .fas{
@@ -208,11 +208,14 @@ font-size: small;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    min-width: auto;
+    width: 80%;
     border-radius: 20px 20px 20px 20px;
-    margin:0.5%;
+    padding-right: 25px;
+
+
     
 }
+
 .sous-titre{
     margin-left:5%;
 
@@ -221,9 +224,9 @@ font-size: small;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    min-width: 30%;
+   margin-left: 30px;
     border-radius: 20px 20px 20px 20px;
-    margin: 0.5%;   
+    
 }
 
 #fleche{
@@ -241,6 +244,7 @@ figure{
     border-radius: 20px 20px 20px 20px;
     box-shadow:5px 8px 15px 1px rgba(0,0,0,0.8) ;
     border: 3px white solid;
+    min-width: 240px;
    
     
 }
@@ -252,7 +256,7 @@ figure:hover{
 }
 
 figure img{
-    width: 250px;
+    width: 240px;
     height: 120px;
 }
 .carte-hotel-populaire img{
@@ -448,6 +452,11 @@ footer{
                 #hebergement-a-marseille{
                 flex-direction: column;
                 margin-top: 3%;
+                width: auto;
+                }
+                #les-plus-populaires{
+                margin-left: 0%;
+                margin-bottom: 10px;
                 }
                 figure{
                    
@@ -638,6 +647,10 @@ footer{
     h2{
         font-size: 180%;
     }
+    #les-plus-populaires{
+        margin-left: 0%;
+        margin-bottom: 10px;
+        }
     
     .carte-hotel-populaire img{
         width: 120px;
@@ -693,6 +706,8 @@ footer{
         }
         #hebergement-a-marseille{
         flex-direction: column;
+        width: auto;
+        padding-right: 0px;
         }
         
         body img{
