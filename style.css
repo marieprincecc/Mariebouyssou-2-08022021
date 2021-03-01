@@ -1,332 +1,299 @@
 /* règles de base */
-body
- {
-    font-family:  "raleway", sans-serif;
-}
-body img{
-    object-fit: cover;
-    object-position: center;
-}
+
+body {font-family:  "raleway", sans-serif;}
+
+body img {object-fit: cover;}
+
 header {
+    margin:2%;
+
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin:2%;
 }
-main {
-    margin: 2%;
-}
-h2{
-    font-size: 150%;
-    font-weight: bold;
-}
-h3{
-    margin: 5% 5% 5% 0%;
-    font-weight: bold;
-    font-size: 110%;
+
+main {margin: 2%;}
+
+h3 {
     line-height: 100%;
+    margin: 5% 2% 5% 0%;
 }
-.fas{
-    color: #0065FC;  
-    font-size: 50%;
-}
-.rond{
-    color: #DEEBFF;
-} 
-.star{
-    color: #f2f2f2;
-} 
-#i{
-    font-size: smaller;
-}
-#fleche{
-    font-size: medium;
-}
-figure{
+.fas {color: #0065FC;}
+
+.rond {color: #DEEBFF;} 
+
+.star{color: #f2f2f2;}                             /*etoiles négatives (grises) */
+
+#i {font-size: smaller;}
+
+#fleche, #point {color: black;}                 /*fleche les plus populaire et point recherche*/
+
+figure {
     background-color: white;
-    margin: 5%;
     overflow: hidden;
+
+    margin: 5%;
+    min-width: 240px;
+
     border-radius: 20px 20px 20px 20px;
     box-shadow:5px 8px 15px 1px rgba(0,0,0,0.8) ;
-    border: 3px white solid;
-    min-width: 240px;
-   
-    
+    border: 3px white solid;    
 }
-figure img{
-    width: 240px;
-    height: 120px;
-}
-figure:hover{
-    box-shadow:5px 8px 15px 1px rgba(0,0,0,1) ;
-}
-footer{
+
+    figure img{                     /*taille images toutes les figures*/
+        width: 240px;
+        height: 120px;
+    }
+
+figure:hover {box-shadow:5px 8px 15px 1px rgba(0,0,0,1);}     /*ombres au survole des carte activité et hotel*/
+
+footer {
     background-color:#f2f2f2 ;
     display: flex;
     justify-content: space-between; 
     padding-right: 15%;   
-    height: 15%; 
-  }
-  
+}  
 
 /* contenu header */
 
-.logo {
-    width: 30%;
-    height: 30%;
- }
- #menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-    .sous-menu{
-       display: flex;
-    }
-        a{
-        color: black;
-        }
-        .ancre {
-        padding: 20px;
-        }
-        #inscription {
-         color: #0065FC;
-         font-weight: bolder;
-        }
+.logo {width: 30%;}
+
+#menu {display: flex;}
+
+    .sous-menu{display: flex;}
+
+        a{color: black;}
+
+        .ancre {padding: 20px;}
+
+        #inscription {color: #0065FC;}
 
         .ancre:hover {
         color: #0065FC;
+
         border-top: 1px #0065FC solid; 
-        padding: 20px;}
+        }
 
 /* contenu main*/
-#introduction{
+
+#introduction {
     display: flex;
     flex-direction: column;
+
     padding-right: 25%;
 }
-    .intro, .search, .filtres{
-    margin-bottom: 10px;
-    }
+
     /*formulairaire de recherche*/
 
-    .formulaire1{
-        display: flex;
-    }
-    #rechercher {       /*zone de texte formulaire*/
-        font-family: "raleway", sans-serif;
-        font-weight: bolder;
-        border: 1px #f2f2f2 solid;
-        padding: 6.5px;
-    }
-    #point{         /*point de recherche*/
-        border-radius: 8px 0px 0px 8px;
-        padding: 9px;
-        background-color: #f2f2f2;
-    }
-    .bouton{        /*bouton rechercher*/
-        
-        border-radius:0px 8px 8px 0px ;
-        padding: 5px;
-        background-color: #0065FC;
-        color: white;
-    }
-    
-    .bouton1{       /*bouton petit format avec loupe*/
-        display: none;
-    }
-    #fleche, #point{
-        color: black;
-    } 
-    /* block de selection de filtres*/
-    .filtres{
-        margin-top: 5px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-        .vignette-filtre{
-        display: flex; 
-        justify-content: space-between;
-        align-items: center;
-        font-size: small;
-        flex-wrap: wrap;
-        }
-            .vignette{
-            border: 2px #f2f2f2 solid;
-            padding-right: 15px;
-            border-radius:30px;
+    .formulaire1 {display: flex;}
+
+        #rechercher {                                        /*zone de texte formulaire*/
+            font-family: "raleway", sans-serif;
             font-weight: bolder;
-            display:flex;
-            align-items: center;
-            margin: 10px;
-            }
-                .nom-filtre{
-                 font-size:95%;
-                font-weight: bold
-                 }
-                 .logo-filtre{
-                    margin: -3px 0px -3px -7px;
-                }
-        .vignette:hover{
-        font-style: italic;       
-        padding-right: 15px;
-        border-radius:30px;
-        box-shadow:5px 8px 15px 1px rgba(0,0,0,0.8) ;
-         }
 
-    .information{ /* phrase d'information*/
-    font-size: small;
-    }
- /*block hebergements*/
-#hébergement{
-    display: flex;
-    flex-direction: row;    
-    justify-content: space-evenly;
-    margin: auto;
-}
-#hebergement-a-marseille {
-    background-color: #f2f2f2;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 80%;
-    border-radius: 20px 20px 20px 20px;
-    padding-right: 25px;
-
-
-    
-}
-#les-plus-populaires{
-    background-color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-   margin-left: 30px;
-    border-radius: 20px 20px 20px 20px;
-    
-}
-.titre{
-    display:flex;
-    justify-content:space-between;
-   margin-left: 5%;
-   margin-right: 5%;
-}
-.sous-titre{ /*afficher plus*/
-    margin-left:5%;
-
-}
-#fleche{
-    align-self: flex-end;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: medium;
-
-}
-#hotel{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-#hotel-populaire{
-    display: flex;
-    flex-direction: column;
-   
-}
-.texte-carte{
-    margin-left: 6px;  
-    margin-bottom: 6px;  
-}
-.carte-hotel-populaire {
-    height: 120px;
-    display: flex;
-    align-items: center;
-    }
-    .carte-hotel-populaire img{   /*format images hotel populaire*/
-        width: 130px;
-        height: 120px;
+            border: 1px #f2f2f2 solid;
+            padding: 6.5px;
         }
-        /*block activité*/
-  #activité{
-      margin: 2%;
-     
-      padding-bottom: 2%;
-      height: auto;
-  }
-    #activité figure{
-       border: none;
-      height: 100%;
-      margin: 5%;
-      padding-bottom: 5%;
-     }
-     figcaption{
-        display: block;
+
+        #point {                                                 /*point de recherche*/
+             border-radius: 8px 0px 0px 8px;
+             padding: 9px;
+             background-color: #f2f2f2;
+        }
+
+        .bouton {                                                     /*bouton rechercher grand formulaire*/
+            background-color: #0065FC;
+            color: white;
+
+            border-radius:0px 8px 8px 0px ;
+            padding: 5px;
+        }
+    
+        .bouton1 {display: none;}                                          /*bouton petit format avec loupe*/
+        
+    
+        
+    /* block de selection de filtres*/
+    .filtres {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .vignette-filtre {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+                .vignette {
+                    display:flex;
+
+                    border-radius:30px;
+                    border: 2px #f2f2f2 solid;
+
+                    padding-right: 15px;
+                    margin: 10px;
+            }
+
+                    .nom-filtre {font-weight: bold;}
+
+                    .logo-filtre {margin: -3px 0px -3px -10px;}
+
+                .vignette:hover {
+                    font-style: italic;  
+
+                    padding-right: 15px;
+
+                    border-radius:30px;
+                    box-shadow:5px 8px 15px 1px rgba(0,0,0,0.8) ;
+                }
+
+    .information {font-size: small;}                            /* phrase d'information*/
+    
+ /*blocks hebergements*/
+
+#hébergement {display: flex;}
+
+    .titre {
+        display:flex;
+        justify-content:space-between;
+
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .sous-titre {margin-left:5%;}                                    /*afficher plus*/
+    
+    /*block hevergement a marseille*/
+
+    #hebergement-a-marseille {
+        background-color: #f2f2f2;
+
+        flex-wrap: wrap;
+
+        padding-right: 25px;
+        width: 80%;
+
+        border-radius: 20px 20px 20px 20px;
+    }
+        #hotel {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    
+    /*block hebergement populaire*/
+
+    #les-plus-populaires {
+        background-color: #f2f2f2;
+
+        margin-left: 30px;
+
+        border-radius: 20px 20px 20px 20px;
+    }
+
+        #hotel-populaire {
+            display: flex;
+            flex-direction: column;
+        }
+       
+        .carte-hotel-populaire {
+            display: flex;
+            align-items: center;
+
+            height: 120px;
+        }
+            .texte-carte {                      /*block texte carte hotel*/
+                 margin-left: 6px;  
+                 margin-bottom: 6px;  
+            }
+            .carte-hotel-populaire img {width: 130px;}   /*format images hotel populaire*/
+                
+/*block activité*/
+
+#activité {
+    padding-bottom: 2%;
+
+    height: auto;
+}
+    #activité h2 {margin-left: 2%;}
+
+    #activité figure {
+        border: none;
+
+        height: 100%;
+
+        padding-bottom: 5%;
+    }
+
+    figcaption {
         margin-left: 5%;
         margin-top: 2%;
     }
     
-           .one, .two, .three, .four, .five, .six{
-              
-               margin: 5%;
-              
-           }
+    .one, .two, .three, .four, .five, .six {margin: 5%;}        /*divs de la grilles activité*/
           
-.carte-activité img{ /* format image activité*/
-   min-height: 85%;
-    min-width: 100%;
-    
-    
- }
+        .carte-activité img {                                     /* format image activité*/
+            min-height: 85%;
+            min-width: 100%;
+        }
+
      /* grilles acrivité css grid*/
-      .grille-activité{
-         
+
+    .grille-activité {
         display:grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows:50% 10% 40%;        
-      }
-      .one{
-        grid-column:1/2;
-        grid-row:1/4;
-       }
-      .two{
-         grid-column:2/3;
-        grid-row:1/3;
+    }
+
+        .one {
+            grid-column:1/2;
+            grid-row:1/4;
         }
-      .three{
-         grid-column:2/3;
-        grid-row:3/4;
-      }
-      .four{
-         grid-column:3/4;
-        grid-row:1/4;
-         }
-      .five{
-         grid-column:4/5;
-        grid-row:1/2;
-       }
-      .six{
-         grid-column:4/5;
-        grid-row:2/4;
-      }
-      .two>.three{
-          clear: both;
-      }
-      .five>.six{
-          clear: both;
-      }
-      
-      
+
+        .two {
+            grid-column:2/3;
+            grid-row:1/3;
+        }
+
+        .three {
+            grid-column:2/3;
+            grid-row:3/4;
+        }
+
+        .four {
+            grid-column:3/4;
+            grid-row:1/4;
+        }
+
+        .five {
+            grid-column:4/5;
+            grid-row:1/2;
+        }
+        
+        .six {
+            grid-column:4/5;
+            grid-row:2/4;
+        }
+
+            .two>.three {clear: both;}
+
+            .five>.six{clear: both;}
 
 /*contenu footer*/
+
 .foot {
-      
-      line-height: 200%;
-      margin: 3%;
-  }
+    line-height: 200%;
+    margin: 3%;
+}
+
+    .foot h3 {margin: 0%;}
+
   /* regles format ecran moyens (tablettes) min-width:740px, max-width:1023px*/
+
   @media(max-width:1023px) and (min-width:740px){
+
     /*regles de bases*/
+
     body{       /*changement de la valeur ecriture de base*/
         font-size: 32px;
     }
@@ -486,12 +453,10 @@ footer{
                     
                    
                 }
-               
-                           
+    footer { padding-right: 0%;}                           
                    
-                        .foot{
-                            font-size: 60%;
-                        }
+        .foot{font-size: 50%;}
+
  }
  
   /*regles format mobile* max-widht:739px*/
@@ -532,7 +497,7 @@ footer{
   }
   /*modif header*/
   .logo{
-   
+    height: 30%;
     margin-left: 5%;        
 }
   #menu{
@@ -628,7 +593,7 @@ footer{
      
     /*liste filtres*/
      .filtres { 
-       font-size: 95%;
+       font-size: 90%;
      }
      .vignette-filtre{
          font-size: 95%;
