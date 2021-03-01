@@ -1,72 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <link rel="stylesheet" href="style.css"/>
-        <link rel="preconnect " href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2? display=swap " rel="stylesheet">
-        <script src="https://kit.fontawesome.com/3fcb279979.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/png" href="images/images/logo/favicon.png" />      
+        <link rel="preconnect" href="https://fonts.gstatic.com">   
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@560&display=swap" rel="stylesheet">   
+        <script src="https://kit.fontawesome.com/3fcb279979.js" crossorigin="anonymous"></script> 
         <title>Reservia Marie Bouyssou</title>
-        <meta content="text/html">
+        <meta name="index.html" content="text/html">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="desciption" content="outil de planification de vacances">                     
     </head>
     <body>       
         <header>
             <h1><img class="logo" src="images/images/logo/Reservia@3x.png" alt="logo reservia"/></h1>
-            <nav id="menu">
+            <nav id="menu">                     <!--menu navigation vers hebergement/activité/inscription-->
                 <div class="sous-menu">
                     <div><a class="ancre" style="text-decoration:none" href="#hébergement">Hébergements</a></div>
-                    <div><a class="ancre"style="text-decoration:none" href="#activité">Activités</a></div>
+                    <div><a class="ancre" style="text-decoration:none" href="#activité">Activités</a></div>
                 </div>                 
                 <div class="element"><a class="ancre" id="inscription" style="text-decoration: none" href="/"><strong>S'inscrire</strong></a></div>
             </nav>
         </header>
             <main>
-                <section id="introduction">
-                    <div class="intro">
+                <section id="introduction">     <!--presentation du site/recherche/filtres/information-->
+                    <div class="intro">     <!--presentation-->
                         <h2>Trouver votre hébergement pour des vacances de rêve</h2>
                         <p>En plein centre ville ou en pleine nature</p>
                     </div>
                     <div class="search"> 
-                        <form> 
-                            <div><i id="point" class="fas fa-map-marker-alt fa-xs"></i></div>  <!--zone de recherche-->                          
+                        <form class="formulaire1">      <!--formulaire de recherche-->
+                            <div><i id="point" class="fas fa-map-marker-alt fa-xs"></i></div>                            
                             <div><input type="search" name="ville" id="rechercher" value="Marseille, France"/><label for="rechercher"></label></div>                               
-                            <div><input class=bouton type="submit" value="Rechercher"/></div>
-                        </form>                           
+                            <div><input class="bouton" type="submit" value="Rechercher"/></div> <!--bouton rechercher-->
+                            <div><button class="bouton1"><i id="loupe" class="fas fa-search"></i></button></div> <!--bouton loupe-->
+                        </form>                                          
                     </div>
                     <div class="filtres">                    
                         <h3>Filtres</h3>
-                        <div class="vignette-filtre">
-                            <div class="vignette">
+                        <div class="vignette-filtre">    <!--liste differents filtres-->   
+                            <div class="vignette">         <!--filtre economique-->
                                 <span class="logo-filtre">
                                     <span class="fa-stack fa-2x">
-                                        <i id="rond" class="fas fa-circle fa-xs fa-stack-2x"></i>                                       
+                                        <i class="rond fas fa-circle fa-xs fa-stack-2x"></i>                                       
                                         <i class="fas fa-money-bill-wave fa-xs fa-stack-1x"></i>                                       
                                     </span>
                                     <span class="nom-filtre">Economique</span>
                                 </span>                                   
                             </div>
-                            <div class="vignette">
+                            <div class="vignette">          <!--filtre famillial-->
                                 <span class="logo-filtre"> 
                                     <span class="fa-stack fa-2x">
-                                     <i id="rond" class="fas fa-circle fa-xs fa-stack-2x"></i>
+                                     <i class="rond fas fa-circle fa-xs fa-stack-2x"></i>
                                      <i class="fas fa-child fa-xs fa-stack-1x"></i>
                                     </span>
                                     <span class="nom-filtre">Famillial</span>
                                 </span>
                             </div>
-                            <div class="vignette">
+                            <div class="vignette">          <!--filtre romantique-->
                                 <span class="logo-filtre">
                                     <span class="fa-stack fa-2x">
-                                    <i id="rond" class="fas fa-circle fa-xs fa-stack-2x"></i>
+                                    <i class="rond fas fa-circle fa-xs fa-stack-2x"></i>
                                     <i class="fas fa-heart fa-xs fa-stack-1x"></i>
                                     </span> 
                                 <span class="nom-filtre">Romantique</span>
                                 </span>
                             </div>
-                            <div class="vignette">      
+                            <div class="vignette">          <!--filtre animaux autorisé-->
                                 <span class="logo-filtre">                          
                                     <span class="fa-stack fa-2x">
-                                    <i id="rond" class="fas fa-circle fa-xs fa-stack-2x"></i>
+                                    <i class="rond fas fa-circle fa-xs fa-stack-2x"></i>
                                     <i class="fas fa-dog fa-xs fa-stack-1x"></i>
                                     </span> 
                                     <span class="nom-filtre"> Animaux autorisés </span>                               
@@ -74,24 +78,24 @@
                             </div>
                         </div>                    
                     </div>
-                    <div class="information"> 
+                    <div class="information">       <!--information-->
                         <p>                      
                             <span id="i" class="fa-stack fa-2x">
-                             <i id="rond" class="far fa-circle fa-xs fa-stack-2x"></i>
+                             <i class="rond far fa-circle fa-xs fa-stack-2x"></i>
                              <i id="info" class="fas fa-info fa-xs fa-stack-1x"></i>
                             </span>
                              Plus de 500 logements sont disponibles dans cette ville   
                         </p>                          
                     </div>
                 </section>
-                <section id="hébergement">
-                    <div id="hebergement-a-marseille">
+                <section id="hébergement">      <!--block hebergement regroupement de hebergement a marseille + hebergement populaire-->
+                    <div id="hebergement-a-marseille">      
                         <div class="titre">
                             <h2>Hébergements à Marseille</h2>
                         </div>
                         <nav id="hotel">
-                            <div class="carte hotel">
-                                <a style="text-decoration: none"; href="/">
+                            <div class="carte-hotel">
+                                <a style="text-decoration: none" href="">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la Cannebière"/>
                                         <div class="texte-carte">
@@ -102,14 +106,14 @@
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>
-                                                <i id="star" class="fas fa-star fa-xs"></i>  
+                                                <i class="star fas fa-star fa-xs"></i>  
                                             </span>
                                         </div>        
                                     </figure>
                                 </a>
                             </div>
-                            <div class="carte hotel">
-                                <a style="text-decoration: none"; href="/">
+                            <div class="carte-hotel">
+                                <a style="text-decoration: none" href="">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port"/>
                                         <div class="texte-carte">
@@ -126,8 +130,8 @@
                                     </figure>
                                 </a>
                             </div>
-                            <div class="carte hotel">
-                                <a style="text-decoration: none"; href="/">
+                            <div class="carte-hotel">
+                                <a style="text-decoration: none" href="">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel les mouettes"/>
                                         <div class="texte-carte">
@@ -138,14 +142,14 @@
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>
-                                                <i id="star" class="fas fa-star fa-xs"></i>  
+                                                <i class="star fas fa-star fa-xs"></i>  
                                             </span>
                                         </div>                                 
                                     </figure>
                                 </a>
                             </div>
-                            <div class="carte hotel">
-                                <a style="text-decoration: none"; href="/">
+                            <div class="carte-hotel">
+                                <a style="text-decoration: none" href="">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel de la mer"/>
                                         <div class="texte-carte">
@@ -155,15 +159,15 @@
                                                 <i class="fas fa-star fa-xs"></i> 
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>                                         
-                                                <i id="star" class="fas fa-star fa-xs"></i>
-                                                <i id="star" class="fas fa-star fa-xs"></i>
+                                                <i class="star fas fa-star fa-xs"></i>
+                                                <i class="star fas fa-star fa-xs"></i>
                                             </span>
                                         </div>                                                
                                     </figure>
                                 </a>
                             </div>        
-                            <div class="carte hotel">
-                                <a style="text-decoration: none"; href="/">
+                            <div class="carte-hotel">
+                                <a style="text-decoration: none" href="">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier"/>
                                         <div class="texte-carte">
@@ -174,14 +178,14 @@
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>                                       
-                                                <i id="star" class="fas fa-star fa-xs"></i>  
+                                                <i class="star fas fa-star fa-xs"></i>  
                                             </span>
                                         </div>                             
                                     </figure>
                                 </a>
                             </div>
-                            <div class="carte hotel">
-                                <a style="text-decoration: none"; href="/">
+                            <div class="carte-hotel">
+                                <a style="text-decoration: none" href="">
                                     <figure>
                                         <img src="images/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel chez amina"/>
                                         <div class="texte-carte">
@@ -210,7 +214,7 @@
                         </div>
                         <nav id="hotel-populaire">
                             <div class="carte-hotel">
-                                <a style="text-decoration: none"; href="/">
+                                <a style="text-decoration: none" href="">
                                     <figure class="carte-hotel-populaire">
                                         <div>
                                         <img src="images/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"/>
@@ -231,7 +235,7 @@
                                 </a>
                             </div>
                             <div class="carte-hotel">
-                                <a style="text-decoration: none"; href="/">
+                                <a style="text-decoration: none" href="">
                                     <figure class="carte-hotel-populaire">
                                         <div>
                                         <img src="images/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"/>
@@ -244,14 +248,14 @@
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>                                       
-                                                <i id="star" class="fas fa-star fa-xs"></i>  
+                                                <i class="star fas fa-star fa-xs"></i>  
                                             </span>                                 
                                         </div>
                                     </figure>
                                 </a>
                             </div>
                             <div class="carte-hotel">
-                                <a style="text-decoration: none"; href="/">
+                                <a style="text-decoration: none" href="">
                                     <figure class="carte-hotel-populaire">
                                         <div>
                                         <img src="images/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"/>
@@ -264,7 +268,7 @@
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>
                                                 <i class="fas fa-star fa-xs"></i>                                       
-                                                <i id="star" class="fas fa-star fa-xs"></i>  
+                                                <i class="star fas fa-star fa-xs"></i>  
                                             </span>     
                                         </div>                                     
                                     </figure>
@@ -273,11 +277,11 @@
                         </nav>
                     </div>
                 </section>
-                <section id="activité">
+                <section id="activité">     <!--block activité-->
                     <h2>Activités à Marseille</h2>
                     <nav class="grille-activité">
                         <div class="one"> 
-                            <a style="text-decoration: none"; href="/">
+                            <a style="text-decoration: none" href="">
                                 <figure class="carte-activité">
                                 <img src="images/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"/>
                                 <figcaption><strong>Vieux Port</strong></figcaption>                                  
@@ -285,7 +289,7 @@
                             </a>
                         </div>
                         <div class="two">
-                            <a style="text-decoration: none"; href="/">
+                            <a style="text-decoration: none" href="">
                                 <figure class="carte-activité">
                                 <img src="images/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/>
                                 <figcaption><strong>Fort de Pomègues</strong></figcaption>                                  
@@ -293,7 +297,7 @@
                             </a>
                         </div>
                         <div class="three">
-                            <a style="text-decoration: none"; href="/">
+                            <a style="text-decoration: none" href="">
                                 <figure class="carte-activité">
                                 <img src="images/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul"/>
                                 <figcaption><strong>Îles du Frioul</strong></figcaption>                                  
@@ -301,7 +305,7 @@
                             </a>
                         </div>
                         <div class="four"> 
-                            <a style="text-decoration: none"; href="/">
+                            <a style="text-decoration: none" href="">
                                 <figure class="carte-activité">
                                 <img src="images/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/>
                                 <figcaption><strong>Parc National des Calanques</strong></figcaption>                                  
@@ -309,7 +313,7 @@
                             </a>
                         </div>
                         <div class="five">
-                            <a style="text-decoration: none"; href="/">
+                            <a style="text-decoration: none" href="">
                                 <figure class="carte-activité">
                                 <img src="images/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/>
                                 <figcaption><strong>Notre-Dame-de-la-Garde</strong></figcaption>                                  
@@ -317,7 +321,7 @@
                             </a>
                         </div>
                         <div class="six">
-                            <a style="text-decoration: none"; href="/">
+                            <a style="text-decoration: none" href="">
                                 <figure class="carte-activité">
                                 <img src="images/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/>
                                 <figcaption><strong>Parc Longchamp</strong></figcaption>                                  
@@ -327,7 +331,7 @@
                     </nav>
                 </section>            
             </main>
-            <footer>
+            <footer>            <!--contient les informations utiles a propos/hebergement/assistance-->
                 <div class="foot">
                     <h3>A propos</h3>
                     <p>Fonctionnement du site <br/>Conditions générales de vente <br/>Données et confidentialité</p>
