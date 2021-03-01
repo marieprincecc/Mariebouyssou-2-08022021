@@ -294,386 +294,334 @@ footer {
 
     /*regles de bases*/
 
-    body{       /*changement de la valeur ecriture de base*/
-        font-size: 32px;
-    }
-    figure{     /*changement dimension figures*/
+body {font-size: 32px;}                           /*changement de la valeur ecriture de base*/
+   
+    figure{width: 200px;}                       /*changement dimension figures*/
                    
-        width: 200px;
-    }
     /*modification header*/
-    .logo{      /*modofication dimension du logo*/
+
+    .logo {                                          /*modofication dimension du logo*/
         width: 50%;
         height: auto;
-        margin-left: 8%;    }
+
+        margin-left: 8%;   
+    }
        
-        #menu{
-            font-size: 80%;
-        }
+    #menu {font-size: 80%;}
         
-        #introduction{ /*adaptation du padding*/
-           padding: 5%;
-         }
-        .intro h2{
-            margin-top: 0%;
-        }
+#introduction {padding: 5%;}                                 /*adaptation du padding*/
+           
+    .intro h2 {margin-top: 0%;}
        
-        /*modification taille formulaire de recherche*/ 
-         #rechercher{
-            font-size: 80%;
+/*modification taille et bouton formulaire de recherche*/
+
+#rechercher {
+    font-size: 80%;
         
-            padding: 2.5%;
-             border-right: none;
-             width: 100%;
-             border:4px #f2f2f2 solid;
-             }
+    padding: 2.5%;
+    border-right: none;
+    width: 100%;
+    border:4px #f2f2f2 solid;
+}
          
-         .bouton{display: none;} /*bouton rechercher*/
-         .bouton1{display:flex;/*bouton loupe*/
-            justify-content: center;
-            align-items: center;
-            
-       }
-         .bouton1{
+    .bouton {display: none;}                             /*bouton rechercher*/
+
+    .bouton1 {
+        display:flex;                              /*bouton loupe*/
+        justify-content: center;
+        align-items: center;
            
-            border-radius:10px ;
-            padding: 5px;
-            background-color: #0065FC;
-            width: 50px;
-            height: 52px;
-          margin-left: -12px;
-         }
-         #loupe{  color: white; /*loupe du bouton*/
-            font-size: 200%;
-                   
-         }
-         #point{      /*point de recherche*/
-            display: flex;
-         width: 50px;
-         height: 52px;
-         background-color: #f2f2f2;
-        
-         border-radius:10px 0px 0px 10px ;
-         align-items: center;
-         justify-content: center;
-       
-             font-size: 100%;
-             padding: 0px;
-         }
-    
-        /*contenu filtres*/
-             .filtres{
-                 
-                 align-items: flex-start;
-             
-            
-               
-             }
-             .vignette-filtre{
-                font-size: 60%;
-              
+        border-radius:10px ;
+        padding: 5px;
+        background-color: #0065FC;
+        width: 50px;
+        height: 52px;
+        margin-left: -12px;
+    }
+
+            #loupe {
+                color: white;                   /*loupe du bouton*/
+                font-size: 200%;
             }
-           
-             .vignette{     /*adaptation bordures*/
+
+            #point {                                 /*point de recherche*/
+                display: flex;
+                width: 50px;
+                height: 52px;
+                background-color: #f2f2f2;
+        
+                border-radius:10px 0px 0px 10px ;
+                align-items: center;
+                justify-content: center;
+       
+                font-size: 100%;
+                padding: 0px;
+            }
+    
+    /*contenu filtres*/
+    .filtres {align-items: flex-start;}
+        
+        .vignette-filtre {font-size: 60%;}
+              
+            .vignette {                           /*adaptation bordures*/
                 border: 3px #f2f2f2 solid;
                  border-radius: 100px;
-             }
-             .logo-filtre{
-                margin-left: -30px;
             }
-             
-             .vignette:hover{ /* adaptation bordure egalement hover*/
-                border-radius:100px;
-             }
-            /*information*/
-             .information{
-                font-size: 85%;
-            }
-            /*section hebergement*/
-            #hébergement{       /*inversement pour que les plus populaires soit en premier*/
-                flex-direction: column-reverse;
-                }
-                #hebergement-a-marseille{
-                   
-                    margin-top: 3%;
-                    width: auto;
-                    }
-                    #les-plus-populaires{
-                    margin-left: 0%;
-                    
-                    }
-                    #fleche{     /*fleche logo les plus populaires*/
-                        font-size: 160%;
-                    }
-                  
-               #hotel-populaire{
-                   flex-direction: row;
-                  
-                   justify-content: space-around;
-                   flex-wrap: wrap;
-                  margin-right: 3%;
-                  margin-bottom: 3%;
-               }
-              
-              
-               
-               
-                .texte-carte{ /*adaptation de la taille du texte ainsi que de sa position pour eviter quil ne sorte de la carte*/
-                    font-size: 60%;
-                    margin-top: -5%;
-                    line-height: 50%;
-                }
-                .carte-hotel-populaire{ /*dimension carte et direction*/
-                    flex-direction: column;
-                    height: 240px;
-                }
-                .carte-hotel-populaire img{ /*modif largeur image*/
-                    width: 250px;
-                 
-                }
-                .carte-activité{
-                   
-                    font-size: 70%;
-                    text-align: center;
-                }
-                .carte-activité img{ /*reduction min height pour laiiser suffisament de place au texte*/
-                    min-height: 75%;}
 
-                    figcaption{
-                        margin-left: 0%;
-                    }
-                    .one, .two, .three, .four, .five, .six{
-              
-                        margin: 2%;}
-                /* changement de grille activité de css grid en flexbox*/
-                .grille-activité{
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    
+            .logo-filtre {margin-left: -30px;}
+             
+             .vignette:hover {border-radius:100px;}                /* adaptation bordure egalement hover*/
+               
+     /*information*/
+    .information {font-size: 85%;}
+                
+/*section hebergement*/
+#hébergement {flex-direction: column-reverse;}       /*inversement pour que les plus populaires soit en premier*/
+                
+    #hebergement-a-marseille {
+        margin-top: 3%;
+        width: auto;
+    }
+
+    #les-plus-populaires {margin-left: 0%;}
                    
-                }
+        #fleche {font-size: 160%;}                      /*fleche logo les plus populaires*/
+                        
+        #hotel-populaire {
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            margin-right: 3%;
+            margin-bottom: 3%;
+        }
+        
+        .texte-carte { /*adaptation de la taille du texte ainsi que de sa position pour eviter quil ne sorte de la carte*/
+            font-size: 60%;
+
+            margin-top: -5%;
+            line-height: 50%;
+        }
+        .carte-hotel-populaire {                     /*dimension carte et direction*/
+            flex-direction: column;
+            height: 240px;
+        }
+            .carte-hotel-populaire img {width: 250px;} /*modif largeur image*/
+                   
+        .carte-activité {
+            font-size: 70%;
+            text-align: center;
+        }
+
+            .carte-activité img {min-height: 75%;}  /*reduction min height pour laiiser suffisament de place au texte*/
+
+                    figcaption {margin-left: 0%;}
+                        
+                .one, .two, .three, .four, .five, .six {margin: 2%;}
+              
+    /* changement de grille activité de css grid en flexbox*/
+    .grille-activité {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     footer { padding-right: 0%;}                           
                    
-        .foot{font-size: 50%;}
+        .foot {font-size: 50%;}
 
- }
+}
  
   /*regles format mobile* max-widht:739px*/
-  @media only screen and (max-width:739px) { 
+
+@media only screen and (max-width:739px) {
+
    /*regles de bases*/
-   body img{
-    width: 100%;
-    height: 140px;
-   
-    }
-   header{
-   
-    flex-direction: column;
-   
+
+body img {
+   width: 100%;
+   height: 140px;
 }
 
-h3{
-    font-size: 150%;
-}
-figure{
-              
+header {display: inline;}
+
+h3 {font-size: 150%;}
+
+figure {              
     border: 4px white solid;
     border-radius: 30px;
     margin:2%
 }
-figcaption{
-    
-    margin-top: 5%;
-}
-main{
-    margin: 0%;
-}
-footer{
-   
-    flex-direction: column;
-   
-   
-  }
+
+figcaption {margin-top: 5%;}
+
+main {margin: 0%;}
+
+footer {flex-direction: column;}
+
   /*modif header*/
-  .logo{
-    height: 30%;
-    margin-left: 5%;        
-}
-  #menu{
-   
-    flex-direction: column-reverse;
-    align-items: flex-end;
-    width: 100%;       
-   line-height: 200%;
-   margin-top: -20px;
-   
-}
-.sous-menu{
-  
-    justify-content: space-around;
-    width: 110%;
-    border-bottom: 5px #f2f2f2 solid;   
-       
-   padding-top:20px;
-   padding-bottom: 20px;
-  margin-right: -15px;
 
+    .logo {
+        height: 30%;
+        margin-left: 5%;        
+    }
+    #menu {
+        flex-direction: column-reverse;
+        align-items: flex-end;
 
-  
-}
+        width: 100%;  
 
+        line-height: 200%;
+
+        margin-top: -20px;
+    }
+    .sous-menu {
+        justify-content: space-around;
+
+        width: 110%;
+        border-bottom: 5px #f2f2f2 solid; 
+
+        padding-top:20px;
+        padding-bottom: 20px;
+        margin-right: -15px;
+    }
+        .ancre {font-size: 120%;}
     
-    
-    .ancre{
-         font-size: 120%;
-       
-     }
-    .sous-menu a:hover{
+    .sous-menu a:hover {
         color: #0065FC;
         border-bottom: 5px #0065FC solid;
-      padding: 25px;
+        padding: 25px;
         border-top: none;
     
     }
-    .ancre:hover{
-        border-top: none;
-    }
+        .ancre:hover {border-top: none;}
    
-    .element{
-       
+    .element {
         margin-top: -15%;
         margin-bottom: 5%;
-     }
-     /*modif introduction*/
-     #introduction{
-       
+    }
+    /*modif introduction*/
+
+     #introduction {       
         align-items: center;
-       padding: 2%;
-     }
+        padding: 2%;
+    }
+
     /*formulaire de recherche*/
-     .bouton{display: none;} /*bouton grand formulaire rechercher*/
-     .bouton1{display: flex;/*bouton petit formulaire loupe*/
+
+        .bouton {display: none;}              /*bouton grand formulaire rechercher*/
+
+        .bouton1 {display: flex;         /*bouton petit formulaire loupe*/
         justify-content: center;
         align-items: center;
+
         border-radius:10px ;
-      
+
         background-color: #0065FC;
+
         width: 50px;
         height: 52px;
       margin-left: -12px;
-     }
-     #loupe{  /*loupe de petit bouton recherche*/
-         color: white;
+        }
+
+     #loupe {                                   /*loupe de petit bouton recherche*/
+        color: white;
         font-size: 110%;
-               
-     }
-     #point{
+    }
+     #point {
+        font-size: 120%;
+
         display: flex;
+        align-items: center;
+        justify-content: center;
+
          width: 50px;
          height: 49px;
-        
-         align-items: center;
-         justify-content: center;
-    
-         font-size: 120%;
-         padding:0px;
-
+        padding:0px;
      }
 
-     #rechercher{
+     #rechercher {
          font-size: 105%;
-        
-        padding: 5%;
-         border-right: none;
-        
+
          border:4px #f2f2f2 solid;
-         }
-    
+         border-right: none;
+
+        padding: 5%;
+        border-right: none;
+    }   
      
     /*liste filtres*/
-     .filtres { 
-       font-size: 90%;
-     }
-     .vignette-filtre{
-         font-size: 95%;
-     }
-     .vignette{
-        border: 3px #f2f2f2 solid;
-       
-        padding-right: 0%;
-     }
+
+    .filtres {font-size: 90%;}
+
+    .vignette-filtre { font-size: 95%;}
     
-     .logo-filtre{
-         margin-left: -10%;
-     }
+    .vignette {
+        border: 3px #f2f2f2 solid;
+        padding-right: 0%;
+    }
+    
+     .logo-filtre {margin-left: -10%;}
+     
      /*taille teste information*/
-     .information{
+
+     .information {
          font-size: 100%;
      }
-     #hébergement{      /*colone + inversion du sens*/
-        flex-direction: column-reverse;
-        }
+    #hébergement {flex-direction: column-reverse;}     /*colone + inversion du sens*/
+        
         /*block hebergement a marseille*/
-        #hebergement-a-marseille{
+
+        #hebergement-a-marseille {
        
             width: auto;
             padding-right: 0px;
             }
-            #hotel .texte-carte{
-                margin-top: 3%;
-            }
+
+            #hotel .texte-carte {margin-top: 3%;}
+
      /*block les plus populaires*/
-     #les-plus-populaires{
+
+    #les-plus-populaires {
         margin-left: 0%;
         margin-bottom: 10px;
-        }
-    #fleche{
-        font-size: 150%;
     }
+    #fleche {font-size: 150%;}
+    
     .carte-hotel-populaire {
         height: 140px;
+
         display: flex;
         align-items: center;
+
         border: 4px white solid;
         border-radius: 30px;
-        
-        }
-    .carte-hotel-populaire img{ /*image hotel populaire*/
+    }
+
+    .carte-hotel-populaire img { height: 140px;}                /*image hotel populaire*/
        
-        height: 140px;
-       
-        }
-    .carte-hotel-populaire .texte-carte{
+    .carte-hotel-populaire .texte-carte {
               margin-bottom: 0%;
+
               display: flex;
               flex-direction: column;
-            
-            }
-           .texte-carte h3{
-               font-size: 120%;
-        margin:0%
+    }
+           .texte-carte h3 {
+                font-size: 120%;
+                margin:0%
            } 
-           .texte-carte span{
-               margin-top: 10%;
-           }
-        /*grille activité modif de css grid a flexbox*/
-        .grille-activité{
-            display:flex;
-            flex-direction: column;
-            
-        }
-        #activité figure{
-            margin:3%
-        }
-        .one, .two, .three, .four, .five, .six{ /*div de la grille d'activité*/
-              
-            margin: 0%;
+           .texte-carte span {margin-top: 10%;}
            
-        }
+               
+     /*grille activité modif de css grid a flexbox*/
+    .grille-activité {
+        display:flex;
+        flex-direction: column;            
+    }
+        #activité figure {margin:3%}
+          
+        .one, .two, .three, .four, .five, .six {margin: 0%;}    /*div de la grille d'activité*/
       
-          .foot{
-            margin: 5%;
-        }
+    .foot{margin: 5%;}
  }
  
