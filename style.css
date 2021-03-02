@@ -56,7 +56,7 @@ footer {
 
 /* contenu header */
 
-.logo {width: 30%;}
+
 
 #menu {display: flex;}
 
@@ -293,15 +293,20 @@ footer {
 
 body {font-size: 32px;}                           /*changement de la valeur ecriture de base*/
    
-    figure{width: 200px;}                       /*changement dimension figures*/
+    figure {width: 200px;}                       /*changement dimension figures*/
+
+    header {                                    /*changement direction flexbox header*/
+        margin: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
                    
     /*modification header*/
 
     .logo {                                          /*modofication dimension du logo*/
-        width: 50%;
-        height: auto;
+        width: 130%;        
 
-        margin-left: 8%;   
+        margin-left: 2%;   
     }
        
     #menu {font-size: 80%;}
@@ -459,6 +464,7 @@ footer {flex-direction: column;}
   /*modif header*/
 
     .logo {
+        width: 30%;
         height: 30%;
         margin-left: 5%;        
     }
