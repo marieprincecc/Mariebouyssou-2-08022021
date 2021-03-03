@@ -7,6 +7,9 @@ body {
 body img {
   object-fit: cover;
 }
+a {
+  text-decoration: none;
+}
 
 header {
   margin: 2%;
